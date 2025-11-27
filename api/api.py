@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from pathlib import Path
+import json
 
 app = FastAPI()
 
@@ -24,5 +26,17 @@ def health():
 
 @app.get("/search")
 def search(q: str):
-    # TODO: koppla till din söklogik/Typesense/Postgres
-    return {"items": q*2, "total": 0}
+    # Mock data for UI development
+    # Load questions.json located next to this file
+    questions_path = "questions.json"
+    try:
+        with open(questions_path, "r", encoding="utf-8") as f:
+            questions = json.load(f)
+    except Exception:
+        questions = []
+        
+
+    # Filter simple mock
+    filtered = [i for i in questions if q and q.lower() in i.get("question", "").lower()] if q else []
+    
+    return {"items": filtered if filtered else questions, "total": len(filtered) or len(questions)}
