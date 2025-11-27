@@ -1,0 +1,1934 @@
+[
+  {
+    "question": "Hur gammal är du?",
+    "answer_alternatives": [],
+    "category": "Bakgrund",
+    "answer_type": "öppen"
+  },
+  {
+    "question": "Vilket län bor du i?",
+    "answer_alternatives": [
+      "Blekinge län",
+      "Dalarnas län",
+      "Gotlands län",
+      "Gävleborgs län",
+      "Hallands län",
+      "Jämtlands län",
+      "Jönköpings län",
+      "Kalmar län",
+      "Kronobergs län",
+      "Norrbottens län",
+      "Skåne län",
+      "Stockholms län",
+      "Södermanlands län",
+      "Uppsala län",
+      "Värmlands län",
+      "Västerbottens län",
+      "Västernorrlands län",
+      "Västmanlands län",
+      "Västra Götalands län",
+      "Örebro län",
+      "Östergötlands län"
+    ],
+    "category": "Bakgrund",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Bor du i en...",
+    "answer_alternatives": [
+      "Storstad (Stockholm, Göteborg eller Malmö)",
+      "Mellanstor stad (t.ex. Örebro, Linköping eller Karlstad)",
+      "Mindre stad (t.ex. Piteå, Kalmar eller Sala)",
+      "Mindre ort eller på landsbygden"
+    ],
+    "category": "Bakgrund",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Har du flyttat/bytt bostad under de senaste 0-12 månaderna?",
+    "answer_alternatives": [
+      "Nej",
+      "Ja",
+      "Osäker/vet inte"
+    ],
+    "category": "Bakgrund",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vilken är din huvudsakliga sysselsättning?",
+    "answer_alternatives": [
+      "Arbetar - anställd",
+      "Arbetar - egen företagare",
+      "Studerar",
+      "Arbetslös/söker jobb",
+      "Föräldraledig",
+      "Sjukskriven/motsvarande",
+      "Pensionär",
+      "Gör inget särskilt/tar det lugnt",
+      "Annat"
+    ],
+    "category": "Bakgrund",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur många anställda är det i företaget/organisationen där du arbetar?",
+    "answer_alternatives": [
+      "1 (bara jag)",
+      "2-5 st.",
+      "6-10 st.",
+      "11-20 st.",
+      "21-50 st.",
+      "51-100 st.",
+      "101-500 st.",
+      "Fler än 500 st.",
+      "Osäker/vet inte"
+    ],
+    "category": "Bakgrund",
+    "answer_type": null
+  },
+  {
+    "question": "Vilka andra bor du med?",
+    "answer_alternatives": [
+      "Med partner",
+      "Med barn (räkna även barn som bor växelvis i hushållet)",
+      "Med föräldrar",
+      "Med syskon",
+      "Med annan / andra"
+    ],
+    "category": "Bakgrund",
+    "answer_type": null
+  },
+  {
+    "question": "Hur många personer bor ni totalt i hushållet?",
+    "answer_alternatives": [
+      "Öppen numerisk"
+    ],
+    "category": "Bakgrund",
+    "answer_type": null
+  },
+  {
+    "question": "Hur många av personerna i hushållet är under 18 år?",
+    "answer_alternatives": [],
+    "category": "Bakgrund",
+    "answer_type": "öppen"
+  },
+  {
+    "question": "Hur gammalt är barnet i ditt hushåll?",
+    "answer_alternatives": [
+      "Under 1 år",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18 år eller äldre"
+    ],
+    "category": "Bakgrund",
+    "answer_type": null
+  },
+  {
+    "question": "Hur gamla är de hemmaboende barnen i ditt hushåll?",
+    "answer_alternatives": [
+      "Under 1 år",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18 år eller äldre"
+    ],
+    "category": "Bakgrund",
+    "answer_type": null
+  },
+  {
+    "question": "Har du mobiltelefon?",
+    "answer_alternatives": [
+      "Ja, via jobbet",
+      "Ja, privat med abonnemang",
+      "Ja, privat med kontantkort",
+      "Ja, privat med annat alternativ",
+      "Nej"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Vilken av dina mobiler skulle du säga är din huvudsakliga telefon?",
+    "answer_alternatives": [
+      "Min jobbmobil",
+      "Mitt privata abonnemang",
+      "Mitt privata kontantkort",
+      "Mitt andra alternativ"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Vilken är din nuvarande mobiloperatör?",
+    "answer_alternatives": [
+      "Predefined: listOperatorer",
+      "Annan (vilken?)",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Hur länge har du varit kund hos dem?",
+    "answer_alternatives": [
+      "0-6 månader",
+      "7-12 månader",
+      "Mellan 1-2 år",
+      "Mellan 3-5 år",
+      "Mellan 6-10 år",
+      "Längre än 10 år",
+      "Minns inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Bytt mobiloperatör senaste 0-12 mån? (ja/nej)",
+    "answer_alternatives": [
+      "Bytt mobiloperatör senaste 0-12 mån",
+      "Övriga"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Har du/hushållet fler tjänster än mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Ja, bredband",
+      "Ja, tv-kanaler och/eller streamingtjänster",
+      "Ja, annan/andra tjänster",
+      "Nej, har bara mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Hur mycket surf/data ingår i ditt mobilabonnemang per månad?",
+    "answer_alternatives": [
+      "0-5 Gb/mån",
+      "6-10 Gb",
+      "11-15 Gb",
+      "16-20 Gb",
+      "21-30 Gb",
+      "31-40 Gb",
+      "41-60 Gb",
+      "61-80 Gb",
+      "81-100 Gb",
+      "101-200 Gb",
+      "Obegränsad surf/data",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Vad är månadskostnaden för ditt mobilabonnemang?",
+    "answer_alternatives": [
+      "0-99 kr/mån",
+      "100-199 kr/mån",
+      "200-299 kr/mån",
+      "300-399 kr/mån",
+      "400-499  kr/mån",
+      "500-599 kr/mån",
+      "600-699 kr/mån",
+      "700-799 kr/mån",
+      "800-899  kr/mån",
+      "900-999 kr/mån",
+      "1000+ kr/mån",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Inkluderar månadskostnaden avbetalning av en telefon?",
+    "answer_alternatives": [
+      "Nej",
+      "Ja",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Ingår streamingtjänster som en del av ditt mobilabonnemang?",
+    "answer_alternatives": [
+      "Ja, en eller flera streamingtjänster ingår",
+      "Nej, inga streamingtjänster ingår",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur viktigt är det för dig att streamingtjänster ingår i ditt mobilabonnemang?",
+    "answer_alternatives": [
+      "Mycket viktigt – det är den främsta anledningen till att jag har abonnemanget",
+      "Ganska viktigt",
+      "Inte särskilt viktigt",
+      "Helt oviktigt – det är helt andra saker som gör att jag har abonnemanget",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vad av detta skulle du säga att du har bra koll på i ditt nuvarande mobilabonnemang?",
+    "answer_alternatives": [
+      "Priset/månadskostnaden",
+      "Mängden surf/data som ingår",
+      "Maxhastigheten för surf/data",
+      "Eventuella rabatter på abonnemanget och när de slutar gälla",
+      "Eventuell bindningstid och/eller avbetalningar kopplade till abonnemanget",
+      "Vad som ingår utöver samtal, sms och data (t.ex. streaming, säkerhet, andra tjänster)",
+      "Villkor för samtal/sms/data utanför EU/EES",
+      "Kostnaden för extra SIM/eSIM (t.ex. att använda i smartwatch, surfplatta, barnklocka)",
+      "Hur prisvärt mitt abonnemang är",
+      "Har inte bra koll på något av detta"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Vad var det främst som gjorde att du började fundera på att byta mobiloperatör?",
+    "answer_alternatives": [
+      "Min bindningstid löpte ut",
+      "Mitt förra abonnemang/kontantkort passade inte mina behov",
+      "Var missnöjd med min förra operatör",
+      "Fick syn på ett bra erbjudande genom reklam",
+      "Behövde en ny telefon",
+      "Ville få ner mina kostnader",
+      "Ville ha mer surf/data",
+      "Ville ha familjeabonnemang",
+      "Förmånligt att samla flera tjänster (t.ex. mobiltelefoni/bredband/tv) hos samma leverantör",
+      "En kompis eller familjemedlem rekommenderade mig att byta",
+      "Att byta operatör är/var enda sättet att få en bättre deal",
+      "Dålig täckning hos min förra operatör",
+      "Kunde få rabatt i en butik genom att byta operatör",
+      "Min förra operatör gjorde om abonnemanget jag hade",
+      "Hade en rabatt hos förra operatören som tog slut",
+      "Min förra operatör höjde priserna",
+      "Annat",
+      "Minns inte / osäker"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "skala"
+  },
+  {
+    "question": "Vad av detta var avgörande för dig när du valde ditt nuvarande abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Mängden surf/data per månad",
+      "Paketerbjudande med telefon",
+      "Paketerbjudande med flera tjänster (t.ex. mobiltelefoni/bredband/tv)",
+      "Att det inte var någon bindningstid på abonnemanget",
+      "Välkomstrabatt på abonnemanget (t.ex. halva priset första tre månaderna)",
+      "Välkomstpott med extra surf/data (t.ex. 50 gb att utnyttja fritt)",
+      "Möjligheten att kunna spara outnyttjad surf/data",
+      "Tillgång till bra kundservice/support",
+      "Förmånliga utlandspriser/villkor",
+      "Extra säkerhet ingick (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Möjligheten att kunna ha familjeabonnemang",
+      "Rabatt på abonnemanget under bindningstiden",
+      "Extra hög surf-/datahastighet (t.ex. upp till 1 000 Mbit/s)",
+      "Att det ingick extra tillbehör (t.ex. hörlurar, högtalare, etc.)",
+      "Streamingtjänster ingick (t.ex. Netflix, HBO Max, Disney+, Viaplay, Prime Video)",
+      "Möjligheten att utnyttja student- eller seniorrabatt",
+      "5G-stöd i abonnemanget",
+      "Extra tjänst(er) ingick (t.ex. molnlagring, försäkring)",
+      "Stöd för eSIM i abonnemanget",
+      "Inget av just detta var avgörande",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "skala"
+  },
+  {
+    "question": "Skaffade du en telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du bytte till dem?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Anslöt du till (eller startade) ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du bytte till dem?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Sammanslagen: skaffade telefon och/eller familj hos [X] i samband med valet?",
+    "answer_alternatives": [
+      "Skaffade både telefon hos X och startade/anslöt till fam.ab hos X",
+      "Skaffade telefon hos X, men startade/anslöt inte till fam.ab hos X",
+      "Startade/anslöt till fam.ab hos X, men skaffade inte telefon hos X",
+      "Skaffade varken telefon hos X eller startade/anslöt till fam.ab hos X (inkl. osäker/vet inte på frågorna)"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Skaffade du/ni telefon till någon annan i familjen hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du/ni bytte till dem?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Ingår streamingtjänster i mobilabonnemanget som du valde hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Ja, en eller flera streamingtjänster ingår",
+      "Nej, inga streamingtjänster ingår",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur viktigt var det för dig att det ingick streamingtjänster när du valde mobilabonnemanget?",
+    "answer_alternatives": [
+      "Mycket viktigt – det var den främsta anledningen till att jag valde abonnemanget",
+      "Ganska viktigt",
+      "Inte särskilt viktigt",
+      "Helt oviktigt – valde abonnemanget av helt andra anledningar",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Ingår streamingtjänster i abonnemanget?",
+    "answer_alternatives": [
+      "Streamingtjänst(er) ingår",
+      "Streamingtjänst(er) ingår inte",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Streamingtjänster ingår - hur viktigt är det?",
+    "answer_alternatives": [
+      "Mycket viktigt – främsta anledningen till att välja/ha abonnemanget",
+      "Ganska viktigt",
+      "Inte särskilt viktigt",
+      "Helt oviktigt – valde/har abonnemanget av helt andra anledningar",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Var/hur blev du kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Via ^f('mobilt_b_operatorNuvarandeVilken_s')^s hemsida",
+      "I ^f('mobilt_b_operatorNuvarandeVilken_s')^s butik",
+      "Via en elektronikkedjas hemsida (t.ex. Elgiganten/Phone House, Power, Elon)",
+      "I en elektronikkedjas butik (t.ex. Elgiganten/Phone House, Power, Elon)",
+      "Via telefon - jag ringde till ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Via telefon - jag blev uppringd av ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Annat sätt (var/hur?)",
+      "Någon annan i familjen beställde/tecknade abonnemanget åt mig",
+      "Minns inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Vilken var din förra mobiloperatör?",
+    "answer_alternatives": [
+      "listOperatorer",
+      "Annan",
+      "Har alltid haft ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "Var du ansluten till ett familjeabonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": null
+  },
+  {
+    "question": "En sista fråga om bytet av mobiloperatör! Hade något av detta kunnat få dig att stanna kvar hos ^f('mobilt_churn_foregaendeOperator_s')^, istället för att byta?",
+    "answer_alternatives": [
+      "Om jag hade kunnat få samma månadskostnad hos ^f('mobilt_churn_foregaendeOperator_s')^ som jag har nu",
+      "Om ^f('mobilt_churn_foregaendeOperator_s')^ inte hade höjt sina priser",
+      "Bättre nät/täckning hos ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Mer surf/data i abonnemanget hos ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Bättre telefonerbjudande hos ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Möjlighet att ha streamingtjänster i abonnemanget hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. Netflix, HBO Max, Disney+)",
+      "Möjlighet att ha familjeabonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Möjlighet att ha flera tjänster hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. mobiltelefoni, bredband, tv)",
+      "Om ^f('mobilt_churn_foregaendeOperator_s')^ hade kontaktat mig i tid med ett bättre erbjudande",
+      "Ett mindre/mer avskalat abonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. med mindre surf/data)",
+      "Bättre service/bemötande hos ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Mer flexibla villkor hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. kortare bindningstid eller enklare att byta abonnemang)",
+      "Bättre säkerhetspaket hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Annat (vad?)",
+      "Nej, inget av detta hade kunnat få mig att stanna hos ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Det var inte mitt beslut att byta från ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Osäker/vet inte"
+    ],
+    "category": "Mobilabonnemang",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Är du ansluten till ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej, är inte ansluten till ett familjeabonnemang",
+      "Osäker / vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Hur många medlemmar i ditt hushåll har en egen mobiltelefon med tillhörande abonnemang eller kontantkort?",
+    "answer_alternatives": [
+      "En",
+      "Två",
+      "Tre",
+      "Fyra",
+      "Fem",
+      "Sex eller fler",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Har ni ett familjeabonnemang i hushållet?",
+    "answer_alternatives": [
+      "Ja, hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Ja, hos en annan operatör",
+      "Nej, vi har inget familjeabonnemang",
+      "Osäker / vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Är du ansluten till ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej, är inte ansluten till ett familjeabonnemang",
+      "Osäker / vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Hur länge har ni haft familjeabonnemanget hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "0-6 månader",
+      "7-12 månader",
+      "Mellan 1-2 år",
+      "Mellan 3-5 år",
+      "Mellan 6-10 år",
+      "Längre än 10 år",
+      "Minns inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Hur många personer totalt (inklusive dig själv) är anslutna till ditt/ert familjeabonnemang?",
+    "answer_alternatives": [
+      "2 personer",
+      "3 personer",
+      "4 personer",
+      "5 personer",
+      "6 eller fler personer",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Förutom dig själv, vem eller vilka mer är anslutna till ditt/ert familjeabonnemang?",
+    "answer_alternatives": [
+      "Min partner",
+      "Mitt/mina barn",
+      "Min/mina föräldrar",
+      "Mitt/mina syskon",
+      "Annan familjemedlem",
+      "Vän(ner)",
+      "Annan/andra",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Förutom telefoner – har ni extra-SIM eller eSIM i någon av dessa enheter kopplade till familjeabonnemanget?",
+    "answer_alternatives": [
+      "Smartwatch",
+      "Surfplatta",
+      "Barnklocka",
+      "Bredbandsrouter",
+      "Smart hem-enhet (t.ex. larm, kamera, sensor)",
+      "Annan enhet (vad?)",
+      "Nej, vi har bara telefoner kopplade till familjeabonnemanget",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Hidden: extra enheter med extra-SIM/eSIM till famab? (ja/nej)",
+    "answer_alternatives": [
+      "Ja",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Är det du som står som innehavare på familjeabonnemanget hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Rent allmänt, vad upplever du som de främsta fördelarna med att ha familjeabonnemang?",
+    "answer_alternatives": [
+      "Ha ett större/bättre abonnemang än jag skulle ha råd med själv",
+      "Lägre totalkostnad än om vi hade separata abonnemang",
+      "Lätt att överblicka hushållets kostnader (t.ex. samlad faktura)",
+      "Smidigt att kunna lägga till eller ta bort användare",
+      "Praktiskt att alla har samma mobiloperatör",
+      "Obegränsad surf/data",
+      "Det ingår streamingtjänster (t.ex. Netflix, HBO Max, Disney+, Prime Video)",
+      "Det ingår säkerhetstjänster (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Det är prisvärt med extra-SIM/eSIM till abonnemanget (t.ex. för smartwatch, surfplatta, barnklocka)",
+      "Får regelbundet bra erbjudanden på nya telefoner eller tillbehör",
+      "Förmånliga utlandsvillkor (t.ex. samtal/sms/data utanför EU)",
+      "Enkelt som förälder att hålla koll på barns surf- och samtalsvanor",
+      "Vi har flera tjänster hos samma leverantör (t.ex. mobilabonnemang, bredband, tv/streaming)",
+      "Vi har en extra bra deal på abonnemanget (t.ex. rabatt, specialerbjudande)",
+      "Jag slipper tänka på att fixa ett eget abonnemang",
+      "Jag slipper betala",
+      "Det är riktigt prisvärt med familjeabonnemang",
+      "Annat (vad?)",
+      "Upplever inga särskilda fördelar",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Rent allmänt, finns det något du upplever som negativt med att ha familjeabonnemang?",
+    "answer_alternatives": [
+      "Krångligt att byta operatör när man är flera personer",
+      "Hålla koll på olika bindningstider för olika personer i abonnemanget",
+      "Passar inte allas behov lika bra hemma",
+      "Betalar för saker som jag/vi inte har så stor nytta av",
+      "Det är ganska dyrt med familjeabonnemang",
+      "Prishöjningar blir mer kännbara när det drabbar flera personer samtidigt",
+      "Bara den som står på abonnemanget kan fixa saker (t.ex. beställa något, kontakta support)",
+      "Det är krångligt att dela upp kostnaden",
+      "Gillar inte att någon annan har koll på hur jag använder min telefon",
+      "Missar kampanjer/erbjudanden som skulle kunna vara intressanta",
+      "Det är besvärligt att köpa ny telefon",
+      "Det är dyrt med extra-SIM/eSIM (t.ex. till smartwatch, surfplatta, barnklocka)",
+      "Alla får problem om något inte fungerar (t.ex. nät/täckning)",
+      "Svårt att hålla koll detaljerna i abonnemanget (t.ex. vad som ingår, vad som kostar)",
+      "Bestämmer inte över abonnemanget själv",
+      "Vill helst hantera mina egna utgifter",
+      "Alla måste vara överens om vi ska ändra något",
+      "Annat (vad?)",
+      "Nej, upplever inget särskilt som negativt",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Finns det något som skulle kunna få dig/er att överväga en annan operator än ^f('mobilt_b_operatorNuvarandeVilken_s')^ för ditt/ert familjeabonnemang?",
+    "answer_alternatives": [
+      "Ja (vad?)",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": null
+  },
+  {
+    "question": "Ser du någon särskild fördel med att ha ert familjeabonnemang just hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Ja (vad?)",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Förutom telefon – har du extra-SIM eller eSIM i någon av dessa enheter kopplade till ditt mobilabonnemang?",
+    "answer_alternatives": [
+      "Smartwatch",
+      "Surfplatta",
+      "Barnklocka",
+      "Bredbandsrouter",
+      "Smart hem-enhet (t.ex. larm, kamera, sensor)",
+      "Annan enhet (vad?)",
+      "Nej, har bara telefon kopplad till mitt mobilabonnemang",
+      "Osäker/vet inte"
+    ],
+    "category": "Famab",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Om du skulle gissa, hur sannolikt känns det att du kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
+    "answer_alternatives": [
+      "10 - väldigt sannolikt - kommer garanterat vara kvar hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1 - väldigt osannolikt - kommer garanterat ha bytt operatör om 24 månader",
+      "Osäker/vet inte"
+    ],
+    "category": "Loyalty",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hidden - beräkningsbar (1-10), hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
+    "answer_alternatives": [],
+    "category": "Loyalty",
+    "answer_type": "öppen"
+  },
+  {
+    "question": "Hidden - CAT, hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
+    "answer_alternatives": [
+      "1-5 - mindre sannolikt",
+      "6-8 - ganska sannolikt",
+      "9-10 - mycket sannolikt",
+      "Osäker/vet inte"
+    ],
+    "category": "Loyalty",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vad bidrar till känslan att du kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
+    "answer_alternatives": [
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ kommer ofta med bra erbjudanden",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ är billiga(st)",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ är prisvärda sett till vad jag får",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har riktigt bra nät/täckning",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har butik(er) jag kan besöka",
+      "Det känns tryggt och stabilt att vara kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Det finns inget vettigt alternativ till ^f('mobilt_b_operatorNuvarandeVilken_s')^ där jag bor eller vistas",
+      "Bra service och bemötande hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Jag gillar ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ är \"tillräckligt\" bra för att jag inte ska bemöda mig att byta",
+      "Har varit kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ länge",
+      "Har familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Har särskilda förmåner eller rabatter hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Har ett extra säkert abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Streamingtjänster ingår hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. Netflix, HBO Max, Disney+, Viaplay, Prime Video)",
+      "Har även ^f('mobilt_b_operatorNuvarandeVilken_s')^ som leverantör för andra tjänster hemma (t.ex. bredband, tv/streaming)",
+      "Har bindningstid och/eller avbetalningar på abonnemanget",
+      "Det känns för krångligt att byta operatör",
+      "Annat (vad?)",
+      "Inget särskilt – det bara känns så",
+      "Osäker/vet inte"
+    ],
+    "category": "Loyalty",
+    "answer_type": null
+  },
+  {
+    "question": "Vad bidrar till känslan att du inte kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
+    "answer_alternatives": [
+      "Vill sänka mina kostnader",
+      "Mitt abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ känns inte tillräckligt prisvärt",
+      "Andra operatörer kommer regelbundet med bra erbjudanden",
+      "Dåligt nät/täckning hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har höjt priset på mitt abonnemang flera gånger",
+      "Dålig service eller bemötande hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Vill ha familjeabonnemang",
+      "Vill samla mina tjänster hos någon (t.ex. mobiltelefoni, bredband, tv/streaming)",
+      "Mina behov eller min ekonomi kommer se annorlunda ut om två år",
+      "Kommer att behöva en ny telefon inom två år",
+      "Får inga särskilda förmåner eller rabatter som gör det värt att stanna hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Planerar att byta operatör när min bindningstid och/eller avbetalning tar slut",
+      "Byter mobiloperatör då och då för att få en bra deal",
+      "Jag har haft tankar på att byta länge, bara inte tagit tag i det",
+      "Mitt nuvarande abonnemang passar inte mina behov",
+      "Annat (vad?)",
+      "Inget särskilt – det bara känns så",
+      "Osäker/vet inte"
+    ],
+    "category": "Loyalty",
+    "answer_type": null
+  },
+  {
+    "question": "Har du någon bindningstid på ditt nuvarande mobilabonnemang?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej, har ingen bindningstid",
+      "Osäker/vet inte"
+    ],
+    "category": "Bindningstider",
+    "answer_type": "singel"
+  },
+  {
+    "question": "När skaffade/band du upp dig på ditt nuvarande abonnemang?",
+    "answer_alternatives": [
+      "För max ett år sedan",
+      "För längre tid än ett år sedan",
+      "Osäker/vet inte"
+    ],
+    "category": "Bindningstider",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Är bindningstiden kopplad till en telefon som betalas av tillsammans med abonnemanget?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej, betalar inte av en telefon med abonnemanget",
+      "Osäker/vet inte"
+    ],
+    "category": "Bindningstider",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Har du rabatt på abonnemanget under bindningstiden?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej, har ingen rabatt på abonnemanget",
+      "Osäker/vet inte"
+    ],
+    "category": "Bindningstider",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur lång tid har du kvar på bindningstiden innan den tar slut?",
+    "answer_alternatives": [
+      "1-6 månader",
+      "7-12 månader",
+      "13-18 månader",
+      "19-24 månader",
+      "Osäker/vet inte"
+    ],
+    "category": "Bindningstider",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Planerar du att göra något särskilt när bindningstiden tar slut?",
+    "answer_alternatives": [
+      "Ja (vad?)",
+      "Nej, har ingen särskild \"plan\"",
+      "Osäker/vet inte"
+    ],
+    "category": "Bindningstider",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vilken eller vilka mobiloperatörer tycker du brukar prata om sitt nät och sin täckning?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello",
+      "Ingen av dem",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Vad av detta förknippar du spontant med \"Sveriges bästa mobilnät\"?",
+    "answer_alternatives": [
+      "Täckning på flest platser i landet",
+      "Högst maxhastighet för data",
+      "Mest utbyggt 5G",
+      "Bäst samtalskvalitet",
+      "Högst säkerhet",
+      "Mest investeringar i ny teknik",
+      "Något annat (vad?)",
+      "Inget av detta"
+    ],
+    "category": "Nät",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Upplever du att det är någon skillnad mellan de olika operatörernas nät/täckning i dagsläget?",
+    "answer_alternatives": [
+      "Ja, mycket stor",
+      "Ja, ganska stor",
+      "Nej, ganska liten",
+      "Nej, ingen alls",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vad är det främst som du uppfattar skiljer sig mellan de olika operatörers nät/täckning?",
+    "answer_alternatives": [
+      "Var i landet de har täckning",
+      "Hur många platser totalt de har täckning på",
+      "Hur hög deras maxhastighet för data är",
+      "Hur utbyggt deras 5G är",
+      "Hur bra samtalskvalitet de har",
+      "Hur hög säkerhet de har",
+      "Hur mycket de investerar i ny teknik",
+      "Hur mycket de pratar om nät/täckning",
+      "Något annat (vad?)",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Om du skulle gissa, tror du att skillnaden mellan de olika operatörernas nät/täckning kommer att vara större eller mindre om fem år, jämfört med idag?",
+    "answer_alternatives": [
+      "Större än idag",
+      "Mindre än idag",
+      "Ungefär samma som idag",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vilken mobiloperatör skulle du spontant säga har Sveriges bästa nät/täckning?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vilken mobiloperatör skulle du spontant säga har Sveriges snabbaste mobilnät?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vilken mobiloperatörs nät skulle du spontant säga har täckning på flest platser i Sverige?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vilken mobiloperatör skulle du spontant säga har Sveriges säkraste mobilnät?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vad av detta känns mest värdefullt för dig att ha hos din mobiloperatör?",
+    "answer_alternatives": [
+      "Sveriges snabbaste mobilnät",
+      "Mobilnätet med täckning på flest platser i Sverige",
+      "Sveriges säkraste mobilnät",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": "singel"
+  },
+  {
+    "question": "På en skala från 1-10, hur mycket bidrar ^f('mobilt_b_operatorNuvarandeVilken_s')^s nät/täckning till att du är kund hos dem?",
+    "answer_alternatives": [
+      "10 – väldigt mycket - det är den viktigaste anledningen till att jag är kund där",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1 – inte alls - det är helt andra saker som gör att jag är kund där",
+      "Osäker/vet inte"
+    ],
+    "category": "Nät",
+    "answer_type": null
+  },
+  {
+    "question": "Hur mycket extra per månad är det värt för dig att ha ^f('mobilt_b_operatorNuvarandeVilken_s')^s nät/täckning, jämfört med om du hade en annan mobiloperatör?",
+    "answer_alternatives": [
+      "kr/mån"
+    ],
+    "category": "Nät",
+    "answer_type": null
+  },
+  {
+    "question": "Har ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjt priset på ditt mobilabonnemang någon gång under det senaste året?",
+    "answer_alternatives": [
+      "Nej, ^f('mobilt_b_operatorNuvarandeVilken_s')^ har inte höjt priset",
+      "Ja, ^f('mobilt_b_operatorNuvarandeVilken_s')^ har höjt priset en aning",
+      "Ja, ^f('mobilt_b_operatorNuvarandeVilken_s')^ har höjt priset rejält",
+      "Nja, ^f('mobilt_b_operatorNuvarandeVilken_s')^ försökte höja priset men jag fick till en specialdeal",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Förstod du anledningen till varför ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset på ditt abonnemang, när de gjorde det?",
+    "answer_alternatives": [
+      "Ja",
+      "Delvis",
+      "Nej, förstod inte alls varför ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Berodde prishöjningen på att en rabatt som du hade på abonnemanget tog slut?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Fick du/ni något extra på köpet när ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset?",
+    "answer_alternatives": [
+      "Ja",
+      "Nej, fick inget extra på köpet",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur kommunicerade ^f('mobilt_b_operatorNuvarandeVilken_s')^ prishöjningen till dig?",
+    "answer_alternatives": [
+      "\"Vi höjer priset på ditt abonnemang\"",
+      "\"Vi lägger till […] i ditt abonnemang (t.ex. högre hastighet, nya tjänster), och höjer därför priset”",
+      "\"Vi höjer priset på ditt abonnemang, men du får även […] inkluderat (t.ex högre hastighet, nya tjänster)\"",
+      "Något annat (vad?)",
+      "Minns inte eller orkade inte läsa vad de skrev",
+      "Fick aldrig någon information från dem"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Övervägde du någonsin att lämna ^f('mobilt_b_operatorNuvarandeVilken_s')^ när de höjde priset på ditt abonnemang?",
+    "answer_alternatives": [
+      "Nej, det gjorde jag inte",
+      "Ja, men jag valde att stanna kvar",
+      "Ja, och jag överväger fortfarande att lämna",
+      "Jag kan/kunde inte byta operatör",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vad var det som fick dig att stanna hos ^f('mobilt_b_operatorNuvarandeVilken_s')^, trots att du övervägde att byta operatör när de höjde priset?",
+    "answer_alternatives": [
+      "Förhandlade med ^f('mobilt_b_operatorNuvarandeVilken_s')^ och fick en bra deal",
+      "Fick något extra på köpet i samband med att de höjde priset (t.ex. mer surf/data)",
+      "Prishöjningen var för liten för att jag skulle orka bry mig",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har bäst nät/täckning",
+      "Fanns/finns inget bättre eller billigare alternativ hos någon annan",
+      "Mitt abonnemang är fortfarande \"helt okej\" prisvärt",
+      "Har varit kund länge hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Krångligt att byta operatör",
+      "Har andra tjänster än mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. bredband, tv/streaming)",
+      "Har bindningstid eller avbetalningar kvar på abonnemanget",
+      "Väntar med att byta tills det blir dags för ny telefon",
+      "Tänker att det kommer komma ett bättre erbjudande från ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Finns ingen annan operatör som jag är sugen på att byta till",
+      "Gillar verkligen ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Det ingår tjänster som ingen annan erbjuder (t.ex. streaming, säkerhet)",
+      "Det är inte jag som bestämmer över abonnemanget",
+      "Annat kom emellan, jag orkade inte ta tag i det",
+      "Annat (vad?)",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Vad tror du kommer att hända med priset på ditt mobilabonnemang under det kommande året?",
+    "answer_alternatives": [
+      "Priset kommer öka",
+      "Priset kommer minska",
+      "Priset kommer vara oförändrat",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur säker känner du dig på att priset på ditt mobilabonnemang kommer att öka under det kommande året?",
+    "answer_alternatives": [
+      "Väldigt säker",
+      "Ganska säker",
+      "Ganska osäker",
+      "Väldigt osäker"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Finns det något särskilt som gör att du tror att priset på ditt mobilabonnemang kommer att öka?",
+    "answer_alternatives": [],
+    "category": "Price hikes",
+    "answer_type": "öppen"
+  },
+  {
+    "question": "Maxkostnad för mobilabonnemanget?",
+    "answer_alternatives": [],
+    "category": "Price hikes",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Hur mycket mer per månad skulle du absolut max vara beredd att betala för ditt mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^, innan du skulle överväga andra alternativ?",
+    "answer_alternatives": [
+      "0 kr/mån - är inte beredd att betala en krona mer än idag",
+      "+25 kr/mån",
+      "+50 kr/mån",
+      "+75 kr/mån",
+      "+100 kr/mån",
+      "+150 kr/mån",
+      "+200 kr/mån",
+      "+250 kr/mån",
+      "+300 kr/mån",
+      "+350 kr/mån eller mer",
+      "Vet inte / har ingen uppfattning",
+      "Jag betalar inte själv för abonnemanget"
+    ],
+    "category": "Price hikes",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Om månadskostnaden för ditt mobilabonnemang skulle öka mer än vad du är beredd att betala, vad tror du att du skulle göra då?",
+    "answer_alternatives": [
+      "Rådgöra med någon jag känner",
+      "Byta operatör direkt",
+      "Jämföra erbjudanden hos andra operatörer",
+      "Byta till ett billigare abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. mindre surf/data)",
+      "Kontakta ^f('mobilt_b_operatorNuvarandeVilken_s')^ och förhandla om priset",
+      "Skaffa ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ för att sänka kostnaden",
+      "Samla fler tjänster hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ för paket-/mängrabatt (t.ex. bredband, tv/streaming)",
+      "Säga upp något hemma för att spara pengar (t.ex. streaming, underhållning, nyheter, ljudböcker)",
+      "Överväga kontantkort istället för abonnemang",
+      "Vänta och se om det kommer ett bättre erbjudande från ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Acceptera den högre kostnaden, även om det skulle ta emot",
+      "Framföra klagomål eller lämna en negativ recension om ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Tappa förtroendet för ^f('mobilt_b_operatorNuvarandeVilken_s')^ och överväga att lämna framöver",
+      "Annat (vad?)",
+      "Osäker/vet inte"
+    ],
+    "category": "Price hikes",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Totalt sett, hur prisvärt upplever du att ditt mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ är?",
+    "answer_alternatives": [
+      "1 - inte alls prisvärt",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 - väldigt prisvärt",
+      "Osäker/vet inte"
+    ],
+    "category": "Prisvärde",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Rent allmänt, vad innebär det för dig att ett mobilabonnemang är prisvärt?",
+    "answer_alternatives": [
+      "Att någon annan betalar abonnemanget åt mig",
+      "Att det är det billigaste abonnemanget man kan ha",
+      "Att månadskostnaden känns rimlig i relation till vad jag får",
+      "Att jag får mycket surf/data för pengarna",
+      "Att jag får högsta möjliga kvalitet (t.ex. nät/täckning, hastighet, service)",
+      "Att kostnaden håller sig stabil över tid",
+      "Att abonnemanget är enkelt och avskalat, utan något extra inkluderat",
+      "Att abonnemanget är flexibelt och snabbt kan ändras vid behov",
+      "Att jag får bra hjälp om något strular",
+      "Att det ingår streamingtjänster i abonnemanget (t.ex. Netflix, HBO Max, Disney+)",
+      "Att det ingår extra säkerhet i abonnemanget (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Att det ingår en telefon i månadskostnaden",
+      "Förmånliga utlandsvillkor (samtal/sms/data utanför EU)",
+      "Möjligheten att ha flera tjänster hos operatören (t.ex. mobiltelefoni, bredband, tv)",
+      "Att det är enkelt att administrera (t.ex. samlad faktura, smidig app)",
+      "Att jag har rabatt eller specialerbjudande på abonnemanget",
+      "Annat (vad?)",
+      "Inget särskilt",
+      "Osäker/vet inte"
+    ],
+    "category": "Prisvärde",
+    "answer_type": null
+  },
+  {
+    "question": "På en skala från 1-10, hur mycket bidrar priset till att du är kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "10 – väldigt mycket - priset är den viktigaste anledningen till att jag är kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1 – inte alls - det är helt andra saker som gör att jag är kund där",
+      "Osäker/vet inte"
+    ],
+    "category": "Prisvärde",
+    "answer_type": null
+  },
+  {
+    "question": "Vilket märke är det på din nuvarande mobiltelefon?",
+    "answer_alternatives": [
+      "predefined list: Telefontillverkare",
+      "Annat märke",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vilken modell är det på din iPhone?",
+    "answer_alternatives": [
+      "iPhone SE",
+      "iPhone 8 eller äldre",
+      "iPhone X",
+      "iPhone XR",
+      "iPhone XS",
+      "iPhone XS Max",
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 Pro Max",
+      "iPhone 12",
+      "iPhone 12 Mini",
+      "iPhone 12 Pro",
+      "iPhone 12 Pro Max",
+      "iPhone 13",
+      "iPhone 13 Mini",
+      "iPhone 13 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 14",
+      "iPhone 14 Plus",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 Plus",
+      "iPhone 15 Pro",
+      "iPhone 15 Pro Max",
+      "iPhone 16",
+      "iPhone 16e",
+      "iPhone 16 Plus",
+      "iPhone 16 Pro",
+      "iPhone 16 Pro Max",
+      "iPhone 17",
+      "iPhone Air",
+      "iPhone 17 Pro",
+      "Vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hur länge har du haft din nuvarande telefon?",
+    "answer_alternatives": [
+      "0-6 månader",
+      "7-12 månader",
+      "Mellan 1-2 år",
+      "Mellan 2-3 år",
+      "Mellan 3-4 år",
+      "Längre än fyra år",
+      "Osäker/minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "BYTA TELEFON - hur?",
+    "answer_alternatives": [],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hur gick det till när du skaffade din nuvarande telefon?",
+    "answer_alternatives": [
+      "Köpte den kontant",
+      "Skaffade / betalar av den tillsammans med ett mobilabonnemang",
+      "Den ingick utan kostnad i ett mobilabonnemang",
+      "Köpte den på avbetalning (ej tillsammans med ett mobilabonnemang)",
+      "Fick den av någon",
+      "Annat sätt",
+      "Minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vad var det för slags telefon du fick?",
+    "answer_alternatives": [
+      "En telefon som köptes fabriksny/oanvänd",
+      "En telefon som köptes rekonditionerad/uppfräschad med garanti",
+      "En telefon som köptes begagnad utan garanti (t.ex. från en privatperson)",
+      "En telefon som jag fick ta över från någon jag känner",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vad fick dig att välja avbetalning när du köpte telefonen?",
+    "answer_alternatives": [
+      "Jag fick rabatt på telefonen när jag köpte den tillsammans med ett abonnemang",
+      "Jag hade inte råd att köpa telefonen kontant",
+      "Det kändes dyrt/onödigt att lägga ut en stor summa pengar",
+      "Jag slapp planera eller spara för att kunna köpa telefonen",
+      "Jag räknar med att ha telefonen länge, känns vettigt att sprida ut kostnaden",
+      "Det var billigare att köpa telefonen på avbetalning än kontant",
+      "Det kostade inget extra att köpa telefonen på avbetalning, jämfört med att köpa den kontant",
+      "Jag fick rabatt på abonnemanget när jag köpte telefonen på avbetalning",
+      "Jag kunde välja en dyrare/bättre telefon än jag hade haft råd med annars",
+      "Det var smidigt att köpa telefonen på avbetalning",
+      "Gammal vana, jag brukar köpa mina telefoner på det sättet",
+      "Jag fick ett bra erbjudande när avbetalningen på min förra telefon löpte ut",
+      "Jag orkade inte jämföra telefon och abonnemang separat",
+      "Annan anledning (vad?)",
+      "Ingen särskild anledning, det bara blev så",
+      "Osäker/minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Vad var det som gjorde att du valde att köpa telefonen kontant?",
+    "answer_alternatives": [
+      "Jag vill inte vara bunden till avbetalningar eller ett abonnemang",
+      "Jag föredrar att köpa saker kontant om jag har råd",
+      "Det var billigare att köpa telefonen kontant",
+      "Jag vet inte hur länge jag kommer vilja eller kunna behålla telefonen",
+      "Det var smidigt att köpa telefonen kontant",
+      "Gammal vana, jag brukar köpa mina telefoner på det sättet",
+      "Jag vill inte sitta med avbetalningar kvar om telefonen skulle gå sönder under avbetalningstiden",
+      "Jag behövde fixa en ny telefon snabbt",
+      "Det fanns inget bra erbjudande med avbetalning där jag köpte telefonen",
+      "Jag köpte telefonen begagnad",
+      "Det är lättare att förstå den totala kostnaden när jag köper telefonen kontant",
+      "Jag vill känna att jag äger telefonen direkt",
+      "Annan anledning (vad?)",
+      "Ingen särskild anledning, det bara blev så",
+      "Osäker/minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Var skaffade du din nuvarande telefon?",
+    "answer_alternatives": [
+      "Hos min nuvarande mobiloperatör",
+      "Hos en annan mobiloperatör",
+      "Elektronikkedja (t.ex. Elgiganten, Power, Elon)",
+      "Mobilspecialist eller liknande (t.ex. Phone House, C&C eller Digital Inn)",
+      "Annan svensk butik (t.ex. Dustin, CDON, Webhallen, NetOnNet eller Inet)",
+      "Köpte den direkt från tillverkaren (via deras hemsida eller i deras butik, t.ex. Apple Store)",
+      "Köpte den av en privatperson (t.ex. på Blocket eller Tradera)",
+      "Via företag specialiserat på begagnade telefoner (t.ex. Swappie, Refurbed, Phone Hero, Refurbly, reNewed)",
+      "Annat sätt",
+      "Minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Finns det någon särskild anledning till att du skaffade din telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "De hade snabb(ast) leverans",
+      "Jag kunde hämta ut/få med mig telefonen direkt",
+      "Kampanj/rabatt/specialerbjudande",
+      "Telefonen var billigast att köpa där",
+      "De har stort/brett utbud av telefoner",
+      "Smidigt att ha både telefon och abonnemang samlat hos dem",
+      "Smidigt att kunna köpa telefonen på avbetalning",
+      "Jag kunde sälja/byta in min gamla telefon och få rabatt på den nya",
+      "Fick något extra på köpet",
+      "Tydligt och lättförståeligt erbjudande",
+      "Tryggt att kunna vända mig dit (t.ex. för support eller garantiärenden)",
+      "Enkelt och bekvämt att köpa telefon från dem",
+      "De hjälper mig behålla telefonen länge (t.ex. service, reparation, support)",
+      "Smidigt att beställa online/via deras hemsida",
+      "Gillar deras butik(er)",
+      "Förmånliga garantier, försäkring eller liknade",
+      "Gammal vana/har köpt tidigare telefoner där",
+      "Fick bra hjälp och service",
+      "Naturligt eftersom jag redan är/var kund hos dem",
+      "Annat (vad?)",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Fanns det någon särskild anledning till att du inte skaffade din telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "answer_alternatives": [
+      "Går inte att köpa telefoner hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Jag hade bråttom/behövde fixa en ny telefon snabbt",
+      "De hade ingen kampanj/rabatt/specialerbjudande",
+      "Telefonen hade varit dyrare att köpa där",
+      "Fick ett bättre erbjudande där jag köpte telefonen",
+      "^f('mobilt_b_operatorNuvarandeVilken_s')^ erbjöd inte möjligheten att sälja/byta in min förra telefon och få rabatt på den nya",
+      "Brukar inte gå till min operatör när jag ska köpa ny telefon",
+      "Är inte intresserad av att köpa telefon från ^f('mobilt_b_operatorNuvarandeVilken_s')^, det räcker att ha mitt abonnemang där",
+      "Det var för krångligt att köpa telefon på ^f('mobilt_b_operatorNuvarandeVilken_s')^s hemsida",
+      "Är redan kund och trivs med att handla telefoner på ett annat ställe",
+      "Ville inte binda mig till ett abonnemang",
+      "För dåligt utbud av telefoner hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Planerar att byta operatör snart",
+      "Har ingen ^f('mobilt_b_operatorNuvarandeVilken_s')^-butik i närheten där jag bor/jobbar/vistas",
+      "Fick tips/rekommendation att köpa telefonen på ett annat ställe",
+      "Telefonen jag ville ha fanns inte att köpa hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Jag ville köpa en begagnad/uppfräschad telefon",
+      "Litar inte på att jag skulle få bra hjälp eller service med telefonen hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Annat (vad?)",
+      "Nej, det fanns ingen särskild anledning"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vilken annan operatör var det du köpte telefonen från?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hur köpte/beställde du din nuvarande telefon?",
+    "answer_alternatives": [
+      "I en butik",
+      "På internet",
+      "Genom att ringa",
+      "Annat sätt",
+      "Köpte/beställde inte telefonen själv",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
+    "answer_alternatives": [
+      "Ja, den var fabriksny/oanvänd",
+      "Nej, men den var rekonditionerad/uppfräschad och kom med garanti",
+      "Nej, den var begagnad och kom utan garanti",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Är det första gången som du har köpt en rekonditionerad/uppfräschad telefon?",
+    "answer_alternatives": [
+      "Ja, det är första gången",
+      "Nej, köpte även min förra telefon rekonditionerad/uppfräschad",
+      "Nej, men har köpt en rekonditionerad/uppfräschad telefon tidigare",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Från vilket företag/butik köpte du telefonen?",
+    "answer_alternatives": [
+      "Blocket",
+      "C&C",
+      "CDON",
+      "Digital Inn",
+      "Dustin",
+      "Elgiganten",
+      "Elon",
+      "Fixmyphone",
+      "Fyndiq",
+      "Inet",
+      "Inrego",
+      "iXpress",
+      "mResell",
+      "NetOnNet",
+      "netzone",
+      "Phone Hero",
+      "Phone House",
+      "Power",
+      "Refurbed",
+      "Refurbly",
+      "reNewed",
+      "Returhuset",
+      "ReuseIT",
+      "Skalhuset",
+      "Swappie",
+      "Teknikdelar",
+      "Teleoutlet",
+      "Telestore",
+      "Webhallen",
+      "Amazon",
+      "Komplett",
+      "Kjell & Co",
+      "Macforum",
+      "Annat företag (vilket?)",
+      "Osäker/minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hidden: individer som köpt telefon från sin nuvarande operatör senaste 0-12 mån - vilken?",
+    "answer_alternatives": [
+      "Comviq",
+      "Halebop",
+      "Tele2",
+      "Telenor",
+      "Telia",
+      "Tre",
+      "Hallon",
+      "Vimla",
+      "Fello"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hidden: individer som köpt telefon direkt från tillverkaren senaste 0-12 mån - vilken?",
+    "answer_alternatives": [
+      "Apple",
+      "Google",
+      "Motorola",
+      "Samsung",
+      "Sony",
+      "OnePlus",
+      "Xiaomi"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Övervägde du vid något tillfälle att köpa en rekonditionerad/uppfräschad telefon, istället för en fabriksny/oanvänd?",
+    "answer_alternatives": [
+      "Ja, men prisskillnaden var för liten jämfört med att köpa en ny/oanvänd telefon",
+      "Ja, men kändes tveksamt att den skulle kunna hålla lika länge som en ny/oanvänd telefon",
+      "Ja, men modellen som jag ville ha fanns inte att köpa rekonditionerad/uppfräschad",
+      "Ja, men det fanns inga sådana erbjudanden där jag köpte min nuvarande telefon",
+      "Ja, men ville inte köpa en rekonditionerad/uppfräschad telefon utan att få titta och känna på den först",
+      "Ja, men blev avrådd från någon som hade köpt en sådan telefon tidigare",
+      "Ja men … (vad?)",
+      "Nej, övervägde aldrig att köpa en begagnad/uppfräschad telefon",
+      "Kände inte till att man kunde köpa begagnade/uppfräschade telefoner"
+    ],
+    "category": "Telefon",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Gjorde du något av följande innan du bestämde dig för att köpa/välja din nuvarande telefon?",
+    "answer_alternatives": [
+      "Jämförde priser/erbjudanden på prisjämförelsesajter",
+      "Jämförde priser/erbjudanden på mobiloperatörers hemsidor",
+      "Jämförde priser/erbjudanden på olika butikers hemsidor",
+      "Läste på om telefonen på tillverkarens hemsida",
+      "Läste på om telefonen på min mobiloperatörs hemsida",
+      "Läste på om telefonen på olika butikers hemsidor",
+      "Läste recensioner och tester (t.ex. på mobil- eller tekniksajter)",
+      "Tittade på recensioner och tester (t.ex. på YouTube)",
+      "Tog del av \"vanliga\" personers åsikter/omdömen (t.ex. på sajter, sociala medier)",
+      "Pratade med någon i min familj",
+      "Pratade med vänner och bekanta",
+      "Pratade med en säljare i butik",
+      "Pratade med kundservice hos min mobiloperatör",
+      "Testade/kände på telefonen i min mobiloperatörs butik",
+      "Testade/kände på telefonen hos en elektronikkedja",
+      "Testade/kände på telefonen i en annan butik",
+      "Uppmärksammade reklam/specialerbjudande",
+      "Annat",
+      "Inget av ovantstående",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": "skala"
+  },
+  {
+    "question": "Var köpet av din nuvarande telefon planerat eller oplanerat?",
+    "answer_alternatives": [
+      "Planerat - hade bestämt mig i god tid innan att det var dags att byta",
+      "Delvis planerat - hade kanske inte tänkt byta telefon just då, men ett bra tillfälle dök upp",
+      "Oplanerat - det var ett spontanköp eller jag var tvungen att fixa en ny telefon snabbt",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hur lång avbetalningstid valde du på telefonen när du köpte den?",
+    "answer_alternatives": [
+      "12 månader",
+      "24 månader",
+      "36 månader",
+      "48 månader",
+      "Ingen avbetalningstid på telefonen",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vad tycker du om avbetalningstiden som du valde (d.v.s. ^f('hard_forra_klimat_avbetal')^)?",
+    "answer_alternatives": [
+      "Lagom lång",
+      "Längre än jag hade velat ha",
+      "Kortare än jag hade velat ha",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vad var det för märke på din förra telefon?",
+    "answer_alternatives": [
+      "predefined list: Telefontillverkare",
+      "Annat märke",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hidden: samma OS på nuvarande telefon som på förra telefon?",
+    "answer_alternatives": [
+      "Samma OS nuvarande och förra telefon",
+      "EJ samma OS på nuvarande och förra telefon"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Förra telefonen - hur länge haft + vad hände med förra telefonen?",
+    "answer_alternatives": [],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hur länge hade du haft din förra telefon, innan du bytte till din nuvarande?",
+    "answer_alternatives": [
+      "Ett halvår eller kortare",
+      "Cirka 1 år",
+      "Cirka 1,5 år",
+      "Cirka 2 år",
+      "Cirka 2,5 år",
+      "Cirka 3 år",
+      "Cirka 3,5 år",
+      "Cirka 4 år",
+      "Cirka 4,5 år",
+      "Fem år eller längre",
+      "Osäker/minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vad gjorde du med din förra telefon när du bytte till din nuvarande?",
+    "answer_alternatives": [
+      "Lade den i en låda (t.ex. för att ha som reserv)",
+      "Gav den till en familjemedlem (t.ex. barn, partner eller förälder)",
+      "Använder fortfarande telefonen själv",
+      "Sålde den till en privatperson (t.ex. på Blocket)",
+      "Sålde den till ett företag specialiserat på begagnade telefoner (t.ex. Swappie, Refurbed)",
+      "Lämnade/skickade in den till tillverkaren (t.ex. Apple, Samsung) och fick rabatt på en ny telefon",
+      "Lämnade/skickade in den till en mobiloperatör och fick rabatt på en ny telefon",
+      "Lämnade in den hos en elektronikkedja (t.ex. Elgiganten eller Power) och fick rabatt på en ny telefon",
+      "Bytte in/uppgraderade den mot en ny telefon (t.ex. Telenor Change)",
+      "Slängde den eller lämnade in den för återvinning",
+      "Lämnade tillbaka den till arbetsgivaren",
+      "Råkade ha sönder eller tappa min förra telefon",
+      "Min förra telefon blev stulen",
+      "Annat",
+      "Minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Är det första gången som du har lämnat/skickat in din gamla telefon för att få rabatt på en ny?",
+    "answer_alternatives": [
+      "Ja, det är första gången",
+      "Nej, gjorde även så med min förra telefon",
+      "Nej, men har gjort det med en annan telefon tidigare",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Hur gick det till när du skaffade din nuvarande telefon?",
+    "answer_alternatives": [
+      "Köpte den kontant",
+      "Skaffade / betalar av den tillsammans med ett mobilabonnemang",
+      "Den ingick utan kostnad i ett mobilabonnemang",
+      "Köpte den på avbetalning (ej tillsammans med ett mobilabonnemang)",
+      "Fick den av någon",
+      "Annat sätt",
+      "Minns inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Vad var det för slags telefon du fick?",
+    "answer_alternatives": [
+      "En telefon som köptes fabriksny/oanvänd",
+      "En telefon som köptes rekonditionerad/uppfräschad med garanti",
+      "En telefon som köptes begagnad utan garanti (t.ex. från en privatperson)",
+      "En telefon som jag fick ta över från någon jag känner",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
+    "answer_alternatives": [
+      "Ja, den var fabriksny/oanvänd",
+      "Nej, men den var rekonditionerad/uppfräschad och kom med garanti",
+      "Nej, den var begagnad och kom utan garanti",
+      "Osäker/vet inte"
+    ],
+    "category": "Telefon",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Hur sugen är du på att byta/uppgradera till en nyare telefon än den du har?",
+    "answer_alternatives": [
+      "Väldigt sugen",
+      "Ganska sugen",
+      "Inte särskilt sugen",
+      "Inte det minsta sugen"
+    ],
+    "category": "Telefon",
+    "answer_type": null
+  },
+  {
+    "question": "Här kommer en allra sista fråga om telefoner! Vilket eller vilka av dessa påståenden instämmer du i?",
+    "answer_alternatives": [
+      "Ny eller begagnad telefon spelar ingen roll, bara den är prisvärd",
+      "Det har inte hänt något spännande med telefoner på flera år",
+      "En telefon är bara ett verktyg, inte en statussymbol",
+      "När jag väl byter telefon brukar jag köpa den senaste modellen",
+      "Det finns en press att uppgradera så fort en ny modell släpps",
+      "Det är slöseri att lägga mycket pengar på en telefon",
+      "Det är viktigt att telefonen är snygg och passar min stil",
+      "Repor eller sprickor spelar ingen roll så länge telefonen funkar",
+      "Nya funktioner och uppdateringar känns mest onödiga",
+      "Att behålla telefonen tills den går sönder är lite som en sport för mig",
+      "Jag hade gärna haft en enklare telefon",
+      "En riktigt gammal/sliten telefon kan kännas coolt, ungefär som ett vintageplagg",
+      "Om jag hade råd skulle jag köpa en fliptelefon",
+      "Att använda min telefon mycket är snarare ett måste än något jag gillar",
+      "Jag och mina kompisar pratar sällan om telefoner",
+      "Jag gillar tanken på en hållbar/\"grön\" telefon",
+      "Jag hade gärna hyrt en telefon istället för att köpa en",
+      "Jag skulle gärna ha kvar min nuvarande telefon i tio år om det gick",
+      "Kamerorna i telefoner har varit tillräckligt bra länge",
+      "Förr eller senare lär det komma något som gör telefoner spännande igen",
+      "Instämmer inte i något av detta"
+    ],
+    "category": "Telefon",
+    "answer_type": "multi"
+  },
+  {
+    "question": "Spontant, vilken ålder tror du är den bästa i livet?",
+    "answer_alternatives": [
+      "0-9 år",
+      "10-19 år",
+      "20-29 år",
+      "30-39 år",
+      "40-49 år",
+      "50-59 år",
+      "60-69 år",
+      "70-79 år",
+      "80-89 år",
+      "90+ år",
+      "Osäker/vet inte"
+    ],
+    "category": "Joker",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Spontant, vilken ålder tror du är den jobbigaste i livet?",
+    "answer_alternatives": [
+      "0-9 år",
+      "10-19 år",
+      "20-29 år",
+      "30-39 år",
+      "40-49 år",
+      "50-59 år",
+      "60-69 år",
+      "70-79 år",
+      "80-89 år",
+      "90+ år",
+      "Osäker/vet inte"
+    ],
+    "category": "Joker",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Jämfört med din faktiska ålder (^f('b_alder')^ år) - hur gammal känner du dig inombords?",
+    "answer_alternatives": [
+      "Betydligt yngre (10+ år yngre)",
+      "Något yngre (4–9 år yngre)",
+      "Ungefär lika gammal (+/-3 år)",
+      "Något äldre (4–9 år äldre)",
+      "Betydligt äldre (10+ år äldre)",
+      "Osäker/vet inte"
+    ],
+    "category": "Joker",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Vad anser du om dina möjligheter att påverka i samhället?",
+    "answer_alternatives": [
+      "1 - Inga möjligheter",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7 - Stora möjligheter"
+    ],
+    "category": "Joker",
+    "answer_type": "singel"
+  },
+  {
+    "question": "Spontant, hur ser du på samhällets framtid?",
+    "answer_alternatives": [
+      "Samhällets framtid ser ljus ut",
+      "Samhällets framtid ser ganska ljus ut",
+      "Samhällets framtid ser varken ljus eller mörk ut",
+      "Samhällets framtid ser ganska mörk ut",
+      "Samhällets framtid ser mörk ut",
+      "Osäker/vet inte"
+    ],
+    "category": "Joker",
+    "answer_type": "singel"
+  }
+]
