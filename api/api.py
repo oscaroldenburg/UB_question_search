@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from openai import AzureOpenAI
 import os
 
+load_dotenv()
+
 import json
 import numpy as np
 
@@ -12,7 +14,7 @@ app = FastAPI()
 
 # CORS – så att din Vue-app får prata med API:et lokalt och från Azure
 origins = [
-    "http://localhost:5173",  # Vite dev
+    os.environ.get("ALLOWED_ORIGINS", "http://localhost:5173"),  # Vite dev
     # lägg till din frontend-URL i Azure här sen, t.ex:
     # "https://dinapp.azurestaticapps.net",
 ]
@@ -37,6 +39,7 @@ client = AzureOpenAI(
     azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
 )
 EMBEDDING_DEPLOYMENT = os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"]
+
 def embed_text(text: str):
     """Skapa embedding för en text med Azure OpenAI."""
     response = client.embeddings.create(
