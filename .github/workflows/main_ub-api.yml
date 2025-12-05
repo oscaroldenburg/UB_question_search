@@ -10,7 +10,7 @@ on:
       - main
     paths:
       -'api/**'
-      - '.github/workflows/**'
+      - '.github/workflows/main_ub-api.yml'
   workflow_dispatch:
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
 
       # (Valfritt – vi kör installer bara för att fånga fel tidigt)
       - name: Install dependencies
-        working-directory: ./backend
+        working-directory: ./api
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
