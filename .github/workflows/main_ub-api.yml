@@ -10,7 +10,7 @@ on:
       - main
     paths:
       -'api/**'
-      - '.github/workflows/**'
+      - '.github/workflows/main_ub-api.yml'
   workflow_dispatch:
 
 jobs:

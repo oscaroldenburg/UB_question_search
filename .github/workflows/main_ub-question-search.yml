@@ -9,7 +9,7 @@ on:
       - main
     paths:
       - 'ui/**'
-      - '.github/workflows/**'
+      - '.github/workflows/main_ub-question-search.yml'
   workflow_dispatch:
 
 jobs:
