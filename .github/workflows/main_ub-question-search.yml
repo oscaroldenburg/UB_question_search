@@ -58,7 +58,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: node-app
-          path: .   # extrahera dist-innehållet i aktuell katalog
+          path: ./node-app   # extrahera dist-innehållet i aktuell katalog
 
       - name: Login to Azure
         uses: azure/login@v2
