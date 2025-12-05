@@ -1,18 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { searchQuestions } from '../api'
+import { searchQuestions, type QuestionItem } from '../api'
 import SearchBox from '../components/SearchBox.vue'
 import ResultsGrid from '../components/ResultsGrid.vue'
 import QuestionModal from '../components/QuestionModal.vue'
 import logo from '../assets/UB_logo.webp'
-
-interface QuestionItem {
-  question: string
-  category?: string
-  year?: number
-  Answer_alternatives?: string[]
-  [key: string]: any
-}
 
 const loading = ref(false)
 const results = ref<QuestionItem[]>([])
@@ -78,6 +70,7 @@ function handleCloseModal() {
       :item="selectedItem"
       :is-open="isModalOpen"
       @close="handleCloseModal"
+      @open-reference="handleShowDetails"
     />
   </div>
 </template>

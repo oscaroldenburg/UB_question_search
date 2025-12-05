@@ -117,6 +117,7 @@ def search(q: str, limit: int = 10):
     for item in scored_items:
         if item.get("similarity"):  # just for testing
             print("Similarity:", item.get("similarity"))
+            item.pop("embedded_question", None)
             top_items.append(item)
         if len(top_items) >= limit:
             break
@@ -126,14 +127,14 @@ def search(q: str, limit: int = 10):
         "items": top_items,
         "total": len(top_items),
     }
-@app.get("/getQuestionByVarName")
+@app.get("/get_question_by_varname")
 def get_question_by_var_name(var_name: str):
     """
     Hämta fråga baserat på variabelnamn.
     """
-
     question_index = var_map.get(var_name)
     question = questions[question_index] if question_index is not None else None
+    question.pop("embedded_question", None)
 
 
     return {"item": question}

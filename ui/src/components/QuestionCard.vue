@@ -1,13 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
-interface QuestionItem {
-  question: string
-  category?: string
-  year?: number
-  Answer_alternatives?: string[]
-  [key: string]: any
-}
+import type { QuestionItem } from '../api'
 
 const props = defineProps<{
   item: QuestionItem

@@ -1,13 +1,9 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted, watch, ref } from 'vue'
+import { getQuestion, type QuestionItem } from '../api'
 
-interface QuestionItem {
-  question: string
-  category?: string
-  year?: number
-  Answer_alternatives?: string[]
-  [key: string]: any
-}
+const searching = ref(false)
+const referenceQuestion = ref<QuestionItem | null>(null)
 
 const props = defineProps<{
   item: QuestionItem | null
@@ -16,10 +12,17 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   close: []
+  openReference: [item: QuestionItem]
 }>()
 
 function handleClose() {
   emit('close')
+}
+
+function handleOpenReference() {
+  if (referenceQuestion.value) {
+    emit('openReference', referenceQuestion.value)
+  }
 }
 
 function handleKeydown(e: KeyboardEvent) {
@@ -27,6 +30,28 @@ function handleKeydown(e: KeyboardEvent) {
     handleClose()
   }
 }
+
+async function fetchReference(var_name: string) {
+  searching.value = true
+  referenceQuestion.value = null
+
+  try {
+    const data = await getQuestion(var_name)
+    referenceQuestion.value = data || null
+  } catch (e) {
+    console.error(e)
+  } finally {
+    searching.value = false
+  }
+}
+
+watch(() => props.item, (newItem) => {
+  if (newItem?.refference_used) {
+    fetchReference(newItem.refference_used)
+  } else {
+    referenceQuestion.value = null
+  }
+}, { immediate: true })
 
 onMounted(() => {
   document.addEventListener('keydown', handleKeydown)
@@ -65,6 +90,25 @@ onUnmounted(() => {
             <div v-if="item.year" class="metadata-item">
               <span class="metadata-label">År:</span>
               <span class="metadata-value">{{ item.year }}</span>
+            </div>
+          </div>
+
+          <div class="metadata-section" v-if="item.refference_used">
+            <div v-if="item.refference_used" class="metadata-item">
+              <span class="metadata-label">Referensvariabel:</span>
+              <span class="metadata-value code-style">{{ item.refference_used }}</span>
+            </div>
+            <div v-if="searching" class="reference-loading">Laddar referens...</div>
+            <div v-else-if="referenceQuestion" class="metadata-item">
+              <span class="metadata-label">Referensfråga:</span>
+              <p class="reference-question">{{ referenceQuestion.question }}</p>
+                  <button class="link-btn" @click="handleOpenReference">
+                    Visa referensfråga &rarr;
+                  </button>
+            </div>
+            <div v-else class="metadata-item">
+              <span class="metadata-label">Referensfråga:</span>
+              <span class="metadata-value">Ingen referens hittades.</span>
             </div>
           </div>
 
@@ -191,6 +235,58 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+}
+
+.metadata-item.full-width {
+  width: 100%;
+}
+
+.reference-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.code-style {
+  font-family: monospace;
+  background: #e5e7eb;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  align-self: flex-start;
+}
+
+.reference-preview {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
+.reference-question {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+  color: #374151;
+  font-style: italic;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #e3004f;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.link-btn:hover {
+  text-decoration: underline;
 }
 
 .metadata-label {
