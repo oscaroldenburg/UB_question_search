@@ -7,6 +7,20 @@ import os
 
 import json
 import numpy as np
+questions_path = "questions_with_embeddings.json"
+try:
+    with open(questions_path, "r", encoding="utf-8") as f:
+        questions = json.load(f)
+except Exception:
+
+    questions = []
+
+file_path = "var_map.json"
+try:
+    with open(file_path, "r", encoding="utf-8") as f:
+        var_map = json.load(f)
+except Exception:   
+    var_map = {}
 
 app = FastAPI()
 
@@ -112,6 +126,19 @@ def search(q: str, limit: int = 10):
         "items": top_items,
         "total": len(top_items),
     }
+@app.get("/getQuestionByVarName")
+def get_question_by_var_name(var_name: str):
+    """
+    Hämta fråga baserat på variabelnamn.
+    """
+
+    question_index = var_map.get(var_name)
+    question = questions[question_index] if question_index is not None else None
+
+
+    return {"item": question}
+
+
 
 """ 
 @app.get("/search")

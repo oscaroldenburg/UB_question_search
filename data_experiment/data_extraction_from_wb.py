@@ -176,8 +176,10 @@ def extract_questions_from_workbook(xlsx_path: str):
             match = re.search(r"\^f\('([^']+)'\)\^", question)
             if match:
                 refference_name = match.group(1)
-                pritty_question = question.replace(match.group(1), "(variabel)").question.replace(match.group(0), "").question.replace(match.group(2), "").strip()
-
+                pritty_question = re.sub(r"\^f\('[^']+'\)\^", "(variabel)", question)
+            else:
+                refference_name = None
+                pritty_question = question
 
 
 
@@ -202,6 +204,9 @@ def extract_questions_from_workbook(xlsx_path: str):
                             continue
                         else:
                             break
+                    match2 = re.search(r"\^f\('([^']+)'\)\^", str(alt_val))
+                    if match2:
+                        alt_val = re.sub(r"\^f\('([^']+)'\)\^", "(variabel)", str(alt_val))
                     answer_alternatives.append(str(alt_val).strip())
                     alt_row += 1
 
@@ -211,12 +216,12 @@ def extract_questions_from_workbook(xlsx_path: str):
             var_name = ws[f"E{row}"].value
 
             question_obj = {
-                "question": question,
-                "pritty_question": pritty_question if match else question,
+                "original_question": question,
+                "question": pritty_question,
                 "answer_alternatives": answer_alternatives,
                 "category": category,
                 "answer_type": answer_type_color,  # här kan du senare mappa färg -> "singel"/"multi"
-                "refference_name": refference_name if match else None,
+                "refference_used": refference_name,
                 "variable_name": var_name,
             }
 

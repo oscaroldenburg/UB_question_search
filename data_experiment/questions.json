@@ -1,7 +1,7 @@
 [
   {
+    "original_question": "Är du…",
     "question": "Är du…",
-    "pritty_question": "Är du…",
     "answer_alternatives": [
       "Tjej / kvinna",
       "Kille / man",
@@ -10,21 +10,21 @@
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_kon"
   },
   {
+    "original_question": "Hur gammal är du?",
     "question": "Hur gammal är du?",
-    "pritty_question": "Hur gammal är du?",
     "answer_alternatives": [],
     "category": "Bakgrund",
     "answer_type": "öppen",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_alder"
   },
   {
+    "original_question": "Vilket län bor du i?",
     "question": "Vilket län bor du i?",
-    "pritty_question": "Vilket län bor du i?",
     "answer_alternatives": [
       "Blekinge län",
       "Dalarnas län",
@@ -50,12 +50,12 @@
     ],
     "category": "Bakgrund",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_lan"
   },
   {
+    "original_question": "Bor du i en...",
     "question": "Bor du i en...",
-    "pritty_question": "Bor du i en...",
     "answer_alternatives": [
       "Storstad (Stockholm, Göteborg eller Malmö)",
       "Mellanstor stad (t.ex. Örebro, Linköping eller Karlstad)",
@@ -64,12 +64,12 @@
     ],
     "category": "Bakgrund",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_ortstorlek"
   },
   {
+    "original_question": "Har du flyttat/bytt bostad under de senaste 0-12 månaderna?",
     "question": "Har du flyttat/bytt bostad under de senaste 0-12 månaderna?",
-    "pritty_question": "Har du flyttat/bytt bostad under de senaste 0-12 månaderna?",
     "answer_alternatives": [
       "Nej",
       "Ja",
@@ -77,12 +77,12 @@
     ],
     "category": "Bakgrund",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_hurlangebott"
   },
   {
+    "original_question": "Vilken är din huvudsakliga sysselsättning?",
     "question": "Vilken är din huvudsakliga sysselsättning?",
-    "pritty_question": "Vilken är din huvudsakliga sysselsättning?",
     "answer_alternatives": [
       "Arbetar - anställd",
       "Arbetar - egen företagare",
@@ -96,12 +96,12 @@
     ],
     "category": "Bakgrund",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_sysselsattning"
   },
   {
+    "original_question": "Hur många anställda är det i företaget/organisationen där du arbetar?",
     "question": "Hur många anställda är det i företaget/organisationen där du arbetar?",
-    "pritty_question": "Hur många anställda är det i företaget/organisationen där du arbetar?",
     "answer_alternatives": [
       "1 (bara jag)",
       "2-5 st.",
@@ -115,24 +115,24 @@
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b2b_antal_anstallda"
   },
   {
+    "original_question": "Bor du…",
     "question": "Bor du…",
-    "pritty_question": "Bor du…",
     "answer_alternatives": [
       "Själv",
       "Med andra"
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_hurbor"
   },
   {
+    "original_question": "Vilka andra bor du med?",
     "question": "Vilka andra bor du med?",
-    "pritty_question": "Vilka andra bor du med?",
     "answer_alternatives": [
       "Med partner",
       "Med barn (räkna även barn som bor växelvis i hushållet)",
@@ -142,32 +142,32 @@
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_bor_med"
   },
   {
+    "original_question": "Hur många personer bor ni totalt i hushållet?",
     "question": "Hur många personer bor ni totalt i hushållet?",
-    "pritty_question": "Hur många personer bor ni totalt i hushållet?",
     "answer_alternatives": [
       "Öppen numerisk"
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_storlek_hushall"
   },
   {
+    "original_question": "Hur många av personerna i hushållet är under 18 år?",
     "question": "Hur många av personerna i hushållet är under 18 år?",
-    "pritty_question": "Hur många av personerna i hushållet är under 18 år?",
     "answer_alternatives": [],
     "category": "Bakgrund",
     "answer_type": "öppen",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_hushall_antal_under18"
   },
   {
+    "original_question": "Hur gammalt är barnet i ditt hushåll?",
     "question": "Hur gammalt är barnet i ditt hushåll?",
-    "pritty_question": "Hur gammalt är barnet i ditt hushåll?",
     "answer_alternatives": [
       "Under 1 år",
       "1",
@@ -191,12 +191,12 @@
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_hushall_alder_ettbarn1"
   },
   {
+    "original_question": "Hur gamla är de hemmaboende barnen i ditt hushåll?",
     "question": "Hur gamla är de hemmaboende barnen i ditt hushåll?",
-    "pritty_question": "Hur gamla är de hemmaboende barnen i ditt hushåll?",
     "answer_alternatives": [
       "Under 1 år",
       "1",
@@ -220,12 +220,12 @@
     ],
     "category": "Bakgrund",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "b_hushall_alder_flerabarn1"
   },
   {
+    "original_question": "Har du mobiltelefon?",
     "question": "Har du mobiltelefon?",
-    "pritty_question": "Har du mobiltelefon?",
     "answer_alternatives": [
       "Ja, via jobbet",
       "Ja, privat med abonnemang",
@@ -235,12 +235,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_b_hartelefon_m"
   },
   {
+    "original_question": "Vilken av dina mobiler skulle du säga är din huvudsakliga telefon?",
     "question": "Vilken av dina mobiler skulle du säga är din huvudsakliga telefon?",
-    "pritty_question": "Vilken av dina mobiler skulle du säga är din huvudsakliga telefon?",
     "answer_alternatives": [
       "Min jobbmobil",
       "Mitt privata abonnemang",
@@ -249,12 +249,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_b_huvudsakligtelefon_s"
   },
   {
+    "original_question": "Vilken är din nuvarande mobiloperatör?",
     "question": "Vilken är din nuvarande mobiloperatör?",
-    "pritty_question": "Vilken är din nuvarande mobiloperatör?",
     "answer_alternatives": [
       "Predefined: listOperatorer",
       "Annan (vilken?)",
@@ -262,12 +262,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_b_operatorNuvarandeVilken_s"
   },
   {
+    "original_question": "Hur länge har du varit kund hos dem?",
     "question": "Hur länge har du varit kund hos dem?",
-    "pritty_question": "Hur länge har du varit kund hos dem?",
     "answer_alternatives": [
       "0-6 månader",
       "7-12 månader",
@@ -279,39 +279,39 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_b_operatorNuvarandeTid"
   },
   {
+    "original_question": "Bytt mobiloperatör senaste 0-12 mån? (ja/nej)",
     "question": "Bytt mobiloperatör senaste 0-12 mån? (ja/nej)",
-    "pritty_question": "Bytt mobiloperatör senaste 0-12 mån? (ja/nej)",
     "answer_alternatives": [
       "Bytt mobiloperatör senaste 0-12 mån",
       "Övriga"
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bytt_op_senastearet"
   },
   {
-    "question": "Har du/hushållet fler tjänster än mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Har du/hushållet fler tjänster än mobilabonnemang hos ^f('(variabel)')^?",
+    "original_question": "Har du/hushållet fler tjänster än mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Har du/hushållet fler tjänster än mobilabonnemang hos (variabel)?",
     "answer_alternatives": [
       "Ja, bredband",
       "Ja, tv-kanaler och/eller streamingtjänster",
       "Ja, annan/andra tjänster",
-      "Nej, har bara mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Nej, har bara mobilabonnemang hos (variabel)",
       "Osäker/vet inte"
     ],
     "category": "Mobilabonnemang",
     "answer_type": "multi",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_flertjanster"
   },
   {
+    "original_question": "Hur mycket surf/data ingår i ditt mobilabonnemang per månad?",
     "question": "Hur mycket surf/data ingår i ditt mobilabonnemang per månad?",
-    "pritty_question": "Hur mycket surf/data ingår i ditt mobilabonnemang per månad?",
     "answer_alternatives": [
       "0-5 Gb/mån",
       "6-10 Gb",
@@ -328,12 +328,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_nuvarande_surfmangd"
   },
   {
+    "original_question": "Vad är månadskostnaden för ditt mobilabonnemang?",
     "question": "Vad är månadskostnaden för ditt mobilabonnemang?",
-    "pritty_question": "Vad är månadskostnaden för ditt mobilabonnemang?",
     "answer_alternatives": [
       "0-99 kr/mån",
       "100-199 kr/mån",
@@ -350,12 +350,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_nuvarande_manadskostnad"
   },
   {
+    "original_question": "Inkluderar månadskostnaden avbetalning av en telefon?",
     "question": "Inkluderar månadskostnaden avbetalning av en telefon?",
-    "pritty_question": "Inkluderar månadskostnaden avbetalning av en telefon?",
     "answer_alternatives": [
       "Nej",
       "Ja",
@@ -363,12 +363,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_nuvarande_manadskostnad_avbtelefon"
   },
   {
+    "original_question": "Ingår streamingtjänster som en del av ditt mobilabonnemang?",
     "question": "Ingår streamingtjänster som en del av ditt mobilabonnemang?",
-    "pritty_question": "Ingår streamingtjänster som en del av ditt mobilabonnemang?",
     "answer_alternatives": [
       "Ja, en eller flera streamingtjänster ingår",
       "Nej, inga streamingtjänster ingår",
@@ -376,12 +376,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_streaming_ingar"
   },
   {
+    "original_question": "Hur viktigt är det för dig att streamingtjänster ingår i ditt mobilabonnemang?",
     "question": "Hur viktigt är det för dig att streamingtjänster ingår i ditt mobilabonnemang?",
-    "pritty_question": "Hur viktigt är det för dig att streamingtjänster ingår i ditt mobilabonnemang?",
     "answer_alternatives": [
       "Mycket viktigt – det är den främsta anledningen till att jag har abonnemanget",
       "Ganska viktigt",
@@ -391,12 +391,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_streaming_ingar_hurviktigt"
   },
   {
+    "original_question": "Vad av detta skulle du säga att du har bra koll på i ditt nuvarande mobilabonnemang?",
     "question": "Vad av detta skulle du säga att du har bra koll på i ditt nuvarande mobilabonnemang?",
-    "pritty_question": "Vad av detta skulle du säga att du har bra koll på i ditt nuvarande mobilabonnemang?",
     "answer_alternatives": [
       "Priset/månadskostnaden",
       "Mängden surf/data som ingår",
@@ -411,12 +411,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_pris_vs_bekvamt"
   },
   {
+    "original_question": "Vad var det främst som gjorde att du började fundera på att byta mobiloperatör?",
     "question": "Vad var det främst som gjorde att du började fundera på att byta mobiloperatör?",
-    "pritty_question": "Vad var det främst som gjorde att du började fundera på att byta mobiloperatör?",
     "answer_alternatives": [
       "Min bindningstid löpte ut",
       "Mitt förra abonnemang/kontantkort passade inte mina behov",
@@ -439,12 +439,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_churn_borjafundera"
   },
   {
-    "question": "Vad av detta var avgörande för dig när du valde ditt nuvarande abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Vad av detta var avgörande för dig när du valde ditt nuvarande abonnemang hos ^f('(variabel)')^?",
+    "original_question": "Vad av detta var avgörande för dig när du valde ditt nuvarande abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Vad av detta var avgörande för dig när du valde ditt nuvarande abonnemang hos (variabel)?",
     "answer_alternatives": [
       "Mängden surf/data per månad",
       "Paketerbjudande med telefon",
@@ -470,24 +470,24 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "multi",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_churn_avgorandeValjaAbonemang_m"
   },
   {
-    "question": "Skaffade du en telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du bytte till dem?",
-    "pritty_question": "Skaffade du en telefon hos ^f('(variabel)')^ i samband med att du bytte till dem?",
+    "original_question": "Skaffade du en telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du bytte till dem?",
+    "question": "Skaffade du en telefon hos (variabel) i samband med att du bytte till dem?",
     "answer_alternatives": [
       "Ja",
       "Nej"
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_churn_skaffadeTelefon_s"
   },
   {
-    "question": "Anslöt du till (eller startade) ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du bytte till dem?",
-    "pritty_question": "Anslöt du till (eller startade) ett familjeabonnemang hos ^f('(variabel)')^ i samband med att du bytte till dem?",
+    "original_question": "Anslöt du till (eller startade) ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du bytte till dem?",
+    "question": "Anslöt du till (eller startade) ett familjeabonnemang hos (variabel) i samband med att du bytte till dem?",
     "answer_alternatives": [
       "Ja",
       "Nej",
@@ -495,12 +495,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_churn_skaffadefamileab_s"
   },
   {
+    "original_question": "Sammanslagen: skaffade telefon och/eller familj hos [X] i samband med valet?",
     "question": "Sammanslagen: skaffade telefon och/eller familj hos [X] i samband med valet?",
-    "pritty_question": "Sammanslagen: skaffade telefon och/eller familj hos [X] i samband med valet?",
     "answer_alternatives": [
       "Skaffade både telefon hos X och startade/anslöt till fam.ab hos X",
       "Skaffade telefon hos X, men startade/anslöt inte till fam.ab hos X",
@@ -509,12 +509,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_churn_hardvara_famab_sammanslagen"
   },
   {
-    "question": "Skaffade du/ni telefon till någon annan i familjen hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du/ni bytte till dem?",
-    "pritty_question": "Skaffade du/ni telefon till någon annan i familjen hos ^f('(variabel)')^ i samband med att du/ni bytte till dem?",
+    "original_question": "Skaffade du/ni telefon till någon annan i familjen hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ i samband med att du/ni bytte till dem?",
+    "question": "Skaffade du/ni telefon till någon annan i familjen hos (variabel) i samband med att du/ni bytte till dem?",
     "answer_alternatives": [
       "Ja",
       "Nej",
@@ -522,12 +522,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_churn_famab_skaffadeTelefon_till_annan"
   },
   {
-    "question": "Ingår streamingtjänster i mobilabonnemanget som du valde hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Ingår streamingtjänster i mobilabonnemanget som du valde hos ^f('(variabel)')^?",
+    "original_question": "Ingår streamingtjänster i mobilabonnemanget som du valde hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Ingår streamingtjänster i mobilabonnemanget som du valde hos (variabel)?",
     "answer_alternatives": [
       "Ja, en eller flera streamingtjänster ingår",
       "Nej, inga streamingtjänster ingår",
@@ -535,12 +535,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_churn_streaming_ingar"
   },
   {
+    "original_question": "Hur viktigt var det för dig att det ingick streamingtjänster när du valde mobilabonnemanget?",
     "question": "Hur viktigt var det för dig att det ingick streamingtjänster när du valde mobilabonnemanget?",
-    "pritty_question": "Hur viktigt var det för dig att det ingick streamingtjänster när du valde mobilabonnemanget?",
     "answer_alternatives": [
       "Mycket viktigt – det var den främsta anledningen till att jag valde abonnemanget",
       "Ganska viktigt",
@@ -550,12 +550,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_churn_streaming_hurviktigt"
   },
   {
+    "original_question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Ingår streamingtjänster i abonnemanget?",
     "question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Ingår streamingtjänster i abonnemanget?",
-    "pritty_question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Ingår streamingtjänster i abonnemanget?",
     "answer_alternatives": [
       "Streamingtjänst(er) ingår",
       "Streamingtjänst(er) ingår inte",
@@ -563,12 +563,12 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_streaming_totalt_ingar"
   },
   {
+    "original_question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Streamingtjänster ingår - hur viktigt är det?",
     "question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Streamingtjänster ingår - hur viktigt är det?",
-    "pritty_question": "Hidden (main brands, 0-12 mån & 1+ år sammanslaget): Streamingtjänster ingår - hur viktigt är det?",
     "answer_alternatives": [
       "Mycket viktigt – främsta anledningen till att välja/ha abonnemanget",
       "Ganska viktigt",
@@ -578,45 +578,45 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_streaming_totalt_hurviktigt"
   },
   {
-    "question": "Var/hur blev du kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Var/hur blev du kund hos ^f('(variabel)')^?",
+    "original_question": "Var/hur blev du kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Var/hur blev du kund hos (variabel)?",
     "answer_alternatives": [
-      "Via ^f('mobilt_b_operatorNuvarandeVilken_s')^s hemsida",
-      "I ^f('mobilt_b_operatorNuvarandeVilken_s')^s butik",
+      "Via (variabel)s hemsida",
+      "I (variabel)s butik",
       "Via en elektronikkedjas hemsida (t.ex. Elgiganten/Phone House, Power, Elon)",
       "I en elektronikkedjas butik (t.ex. Elgiganten/Phone House, Power, Elon)",
-      "Via telefon - jag ringde till ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "Via telefon - jag blev uppringd av ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Via telefon - jag ringde till (variabel)",
+      "Via telefon - jag blev uppringd av (variabel)",
       "Annat sätt (var/hur?)",
       "Någon annan i familjen beställde/tecknade abonnemanget åt mig",
       "Minns inte"
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_churn_hurkund"
   },
   {
+    "original_question": "Vilken var din förra mobiloperatör?",
     "question": "Vilken var din förra mobiloperatör?",
-    "pritty_question": "Vilken var din förra mobiloperatör?",
     "answer_alternatives": [
       "listOperatorer",
       "Annan",
-      "Har alltid haft ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Har alltid haft (variabel)",
       "Osäker/vet inte"
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_churn_foregaendeOperator_s"
   },
   {
-    "question": "Var du ansluten till ett familjeabonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^?",
-    "pritty_question": "Var du ansluten till ett familjeabonnemang hos ^f('(variabel)')^?",
+    "original_question": "Var du ansluten till ett familjeabonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^?",
+    "question": "Var du ansluten till ett familjeabonnemang hos (variabel)?",
     "answer_alternatives": [
       "Ja",
       "Nej",
@@ -624,39 +624,39 @@
     ],
     "category": "Mobilabonnemang",
     "answer_type": null,
-    "refference_name": "mobilt_churn_foregaendeOperator_s",
+    "refference_used": "mobilt_churn_foregaendeOperator_s",
     "variable_name": "mobilt_churn_foregaendeOperator_famileab"
   },
   {
-    "question": "En sista fråga om bytet av mobiloperatör! Hade något av detta kunnat få dig att stanna kvar hos ^f('mobilt_churn_foregaendeOperator_s')^, istället för att byta?",
-    "pritty_question": "En sista fråga om bytet av mobiloperatör! Hade något av detta kunnat få dig att stanna kvar hos ^f('(variabel)')^, istället för att byta?",
+    "original_question": "En sista fråga om bytet av mobiloperatör! Hade något av detta kunnat få dig att stanna kvar hos ^f('mobilt_churn_foregaendeOperator_s')^, istället för att byta?",
+    "question": "En sista fråga om bytet av mobiloperatör! Hade något av detta kunnat få dig att stanna kvar hos (variabel), istället för att byta?",
     "answer_alternatives": [
-      "Om jag hade kunnat få samma månadskostnad hos ^f('mobilt_churn_foregaendeOperator_s')^ som jag har nu",
-      "Om ^f('mobilt_churn_foregaendeOperator_s')^ inte hade höjt sina priser",
-      "Bättre nät/täckning hos ^f('mobilt_churn_foregaendeOperator_s')^",
-      "Mer surf/data i abonnemanget hos ^f('mobilt_churn_foregaendeOperator_s')^",
-      "Bättre telefonerbjudande hos ^f('mobilt_churn_foregaendeOperator_s')^",
-      "Möjlighet att ha streamingtjänster i abonnemanget hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. Netflix, HBO Max, Disney+)",
-      "Möjlighet att ha familjeabonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^",
-      "Möjlighet att ha flera tjänster hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. mobiltelefoni, bredband, tv)",
-      "Om ^f('mobilt_churn_foregaendeOperator_s')^ hade kontaktat mig i tid med ett bättre erbjudande",
-      "Ett mindre/mer avskalat abonnemang hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. med mindre surf/data)",
-      "Bättre service/bemötande hos ^f('mobilt_churn_foregaendeOperator_s')^",
-      "Mer flexibla villkor hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. kortare bindningstid eller enklare att byta abonnemang)",
-      "Bättre säkerhetspaket hos ^f('mobilt_churn_foregaendeOperator_s')^ (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Om jag hade kunnat få samma månadskostnad hos (variabel) som jag har nu",
+      "Om (variabel) inte hade höjt sina priser",
+      "Bättre nät/täckning hos (variabel)",
+      "Mer surf/data i abonnemanget hos (variabel)",
+      "Bättre telefonerbjudande hos (variabel)",
+      "Möjlighet att ha streamingtjänster i abonnemanget hos (variabel) (t.ex. Netflix, HBO Max, Disney+)",
+      "Möjlighet att ha familjeabonnemang hos (variabel)",
+      "Möjlighet att ha flera tjänster hos (variabel) (t.ex. mobiltelefoni, bredband, tv)",
+      "Om (variabel) hade kontaktat mig i tid med ett bättre erbjudande",
+      "Ett mindre/mer avskalat abonnemang hos (variabel) (t.ex. med mindre surf/data)",
+      "Bättre service/bemötande hos (variabel)",
+      "Mer flexibla villkor hos (variabel) (t.ex. kortare bindningstid eller enklare att byta abonnemang)",
+      "Bättre säkerhetspaket hos (variabel) (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
       "Annat (vad?)",
-      "Nej, inget av detta hade kunnat få mig att stanna hos ^f('mobilt_churn_foregaendeOperator_s')^",
-      "Det var inte mitt beslut att byta från ^f('mobilt_churn_foregaendeOperator_s')^",
+      "Nej, inget av detta hade kunnat få mig att stanna hos (variabel)",
+      "Det var inte mitt beslut att byta från (variabel)",
       "Osäker/vet inte"
     ],
     "category": "Mobilabonnemang",
     "answer_type": "multi",
-    "refference_name": "mobilt_churn_foregaendeOperator_s",
+    "refference_used": "mobilt_churn_foregaendeOperator_s",
     "variable_name": "mobilt_churn_streaming_hurviktigt"
   },
   {
-    "question": "Är du ansluten till ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Är du ansluten till ett familjeabonnemang hos ^f('(variabel)')^?",
+    "original_question": "Är du ansluten till ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Är du ansluten till ett familjeabonnemang hos (variabel)?",
     "answer_alternatives": [
       "Ja",
       "Nej, är inte ansluten till ett familjeabonnemang",
@@ -664,12 +664,12 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_famab_singelhushall"
   },
   {
+    "original_question": "Hur många medlemmar i ditt hushåll har en egen mobiltelefon med tillhörande abonnemang eller kontantkort?",
     "question": "Hur många medlemmar i ditt hushåll har en egen mobiltelefon med tillhörande abonnemang eller kontantkort?",
-    "pritty_question": "Hur många medlemmar i ditt hushåll har en egen mobiltelefon med tillhörande abonnemang eller kontantkort?",
     "answer_alternatives": [
       "En",
       "Två",
@@ -681,26 +681,26 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_antalab"
   },
   {
+    "original_question": "Har ni ett familjeabonnemang i hushållet?",
     "question": "Har ni ett familjeabonnemang i hushållet?",
-    "pritty_question": "Har ni ett familjeabonnemang i hushållet?",
     "answer_alternatives": [
-      "Ja, hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Ja, hos (variabel)",
       "Ja, hos en annan operatör",
       "Nej, vi har inget familjeabonnemang",
       "Osäker / vet inte"
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_delar"
   },
   {
-    "question": "Är du ansluten till ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Är du ansluten till ett familjeabonnemang hos ^f('(variabel)')^?",
+    "original_question": "Är du ansluten till ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Är du ansluten till ett familjeabonnemang hos (variabel)?",
     "answer_alternatives": [
       "Ja",
       "Nej, är inte ansluten till ett familjeabonnemang",
@@ -708,12 +708,12 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_famab_flerpers_endasten"
   },
   {
-    "question": "Hur länge har ni haft familjeabonnemanget hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Hur länge har ni haft familjeabonnemanget hos ^f('(variabel)')^?",
+    "original_question": "Hur länge har ni haft familjeabonnemanget hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Hur länge har ni haft familjeabonnemanget hos (variabel)?",
     "answer_alternatives": [
       "0-6 månader",
       "7-12 månader",
@@ -725,12 +725,12 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_familjeab_hurlange"
   },
   {
+    "original_question": "Hur många personer totalt (inklusive dig själv) är anslutna till ditt/ert familjeabonnemang?",
     "question": "Hur många personer totalt (inklusive dig själv) är anslutna till ditt/ert familjeabonnemang?",
-    "pritty_question": "Hur många personer totalt (inklusive dig själv) är anslutna till ditt/ert familjeabonnemang?",
     "answer_alternatives": [
       "2 personer",
       "3 personer",
@@ -741,12 +741,12 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_familjeab_hurmangaanslutna"
   },
   {
+    "original_question": "Förutom dig själv, vem eller vilka mer är anslutna till ditt/ert familjeabonnemang?",
     "question": "Förutom dig själv, vem eller vilka mer är anslutna till ditt/ert familjeabonnemang?",
-    "pritty_question": "Förutom dig själv, vem eller vilka mer är anslutna till ditt/ert familjeabonnemang?",
     "answer_alternatives": [
       "Min partner",
       "Mitt/mina barn",
@@ -759,12 +759,12 @@
     ],
     "category": "Famab",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_familjeab_vilkaanslutna"
   },
   {
+    "original_question": "Förutom telefoner – har ni extra-SIM eller eSIM i någon av dessa enheter kopplade till familjeabonnemanget?",
     "question": "Förutom telefoner – har ni extra-SIM eller eSIM i någon av dessa enheter kopplade till familjeabonnemanget?",
-    "pritty_question": "Förutom telefoner – har ni extra-SIM eller eSIM i någon av dessa enheter kopplade till familjeabonnemanget?",
     "answer_alternatives": [
       "Smartwatch",
       "Surfplatta",
@@ -777,12 +777,12 @@
     ],
     "category": "Famab",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_extrasim"
   },
   {
+    "original_question": "Hidden: extra enheter med extra-SIM/eSIM till famab? (ja/nej)",
     "question": "Hidden: extra enheter med extra-SIM/eSIM till famab? (ja/nej)",
-    "pritty_question": "Hidden: extra enheter med extra-SIM/eSIM till famab? (ja/nej)",
     "answer_alternatives": [
       "Ja",
       "Nej",
@@ -790,12 +790,12 @@
     ],
     "category": "Famab",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_extrasim_cat"
   },
   {
-    "question": "Är det du som står som innehavare på familjeabonnemanget hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Är det du som står som innehavare på familjeabonnemanget hos ^f('(variabel)')^?",
+    "original_question": "Är det du som står som innehavare på familjeabonnemanget hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Är det du som står som innehavare på familjeabonnemanget hos (variabel)?",
     "answer_alternatives": [
       "Ja",
       "Nej",
@@ -803,12 +803,12 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_familjeabb_betalar"
   },
   {
+    "original_question": "Rent allmänt, vad upplever du som de främsta fördelarna med att ha familjeabonnemang?",
     "question": "Rent allmänt, vad upplever du som de främsta fördelarna med att ha familjeabonnemang?",
-    "pritty_question": "Rent allmänt, vad upplever du som de främsta fördelarna med att ha familjeabonnemang?",
     "answer_alternatives": [
       "Ha ett större/bättre abonnemang än jag skulle ha råd med själv",
       "Lägre totalkostnad än om vi hade separata abonnemang",
@@ -833,12 +833,12 @@
     ],
     "category": "Famab",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_fordelar"
   },
   {
+    "original_question": "Rent allmänt, finns det något du upplever som negativt med att ha familjeabonnemang?",
     "question": "Rent allmänt, finns det något du upplever som negativt med att ha familjeabonnemang?",
-    "pritty_question": "Rent allmänt, finns det något du upplever som negativt med att ha familjeabonnemang?",
     "answer_alternatives": [
       "Krångligt att byta operatör när man är flera personer",
       "Hålla koll på olika bindningstider för olika personer i abonnemanget",
@@ -863,12 +863,12 @@
     ],
     "category": "Famab",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_famab_negativt"
   },
   {
-    "question": "Finns det något som skulle kunna få dig/er att överväga en annan operator än ^f('mobilt_b_operatorNuvarandeVilken_s')^ för ditt/ert familjeabonnemang?",
-    "pritty_question": "Finns det något som skulle kunna få dig/er att överväga en annan operator än ^f('(variabel)')^ för ditt/ert familjeabonnemang?",
+    "original_question": "Finns det något som skulle kunna få dig/er att överväga en annan operator än ^f('mobilt_b_operatorNuvarandeVilken_s')^ för ditt/ert familjeabonnemang?",
+    "question": "Finns det något som skulle kunna få dig/er att överväga en annan operator än (variabel) för ditt/ert familjeabonnemang?",
     "answer_alternatives": [
       "Ja (vad?)",
       "Nej",
@@ -876,12 +876,12 @@
     ],
     "category": "Famab",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_familjeab_overvaga_byta"
   },
   {
-    "question": "Ser du någon särskild fördel med att ha ert familjeabonnemang just hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Ser du någon särskild fördel med att ha ert familjeabonnemang just hos ^f('(variabel)')^?",
+    "original_question": "Ser du någon särskild fördel med att ha ert familjeabonnemang just hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Ser du någon särskild fördel med att ha ert familjeabonnemang just hos (variabel)?",
     "answer_alternatives": [
       "Ja (vad?)",
       "Nej",
@@ -889,12 +889,12 @@
     ],
     "category": "Famab",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_famab_sarskildfordel_x"
   },
   {
+    "original_question": "Förutom telefon – har du extra-SIM eller eSIM i någon av dessa enheter kopplade till ditt mobilabonnemang?",
     "question": "Förutom telefon – har du extra-SIM eller eSIM i någon av dessa enheter kopplade till ditt mobilabonnemang?",
-    "pritty_question": "Förutom telefon – har du extra-SIM eller eSIM i någon av dessa enheter kopplade till ditt mobilabonnemang?",
     "answer_alternatives": [
       "Smartwatch",
       "Surfplatta",
@@ -907,14 +907,14 @@
     ],
     "category": "Famab",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_ejfamab_extrasim"
   },
   {
-    "question": "Om du skulle gissa, hur sannolikt känns det att du kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
-    "pritty_question": "Om du skulle gissa, hur sannolikt känns det att du kommer vara kvar som kund hos ^f('(variabel)')^ om 24 månader?",
+    "original_question": "Om du skulle gissa, hur sannolikt känns det att du kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
+    "question": "Om du skulle gissa, hur sannolikt känns det att du kommer vara kvar som kund hos (variabel) om 24 månader?",
     "answer_alternatives": [
-      "10 - väldigt sannolikt - kommer garanterat vara kvar hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader",
+      "10 - väldigt sannolikt - kommer garanterat vara kvar hos (variabel) om 24 månader",
       "9",
       "8",
       "7",
@@ -928,21 +928,21 @@
     ],
     "category": "Loyalty",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_loyalty_kvarom24"
   },
   {
+    "original_question": "Hidden - beräkningsbar (1-10), hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
     "question": "Hidden - beräkningsbar (1-10), hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
-    "pritty_question": "Hidden - beräkningsbar (1-10), hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
     "answer_alternatives": [],
     "category": "Loyalty",
     "answer_type": "öppen",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_loyalty_kvarom24_numeric"
   },
   {
+    "original_question": "Hidden - CAT, hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
     "question": "Hidden - CAT, hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
-    "pritty_question": "Hidden - CAT, hur sannolikt känns det att du kommer vara kvar som kund hos [X] om 24 månader?",
     "answer_alternatives": [
       "1-5 - mindre sannolikt",
       "6-8 - ganska sannolikt",
@@ -951,29 +951,29 @@
     ],
     "category": "Loyalty",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_loyalty_kvarom24_numeric"
   },
   {
-    "question": "Vad bidrar till känslan att du kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
-    "pritty_question": "Vad bidrar till känslan att du kommer vara kvar som kund hos ^f('(variabel)')^ om 24 månader?",
+    "original_question": "Vad bidrar till känslan att du kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
+    "question": "Vad bidrar till känslan att du kommer vara kvar som kund hos (variabel) om 24 månader?",
     "answer_alternatives": [
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ kommer ofta med bra erbjudanden",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ är billiga(st)",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ är prisvärda sett till vad jag får",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har riktigt bra nät/täckning",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har butik(er) jag kan besöka",
-      "Det känns tryggt och stabilt att vara kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "Det finns inget vettigt alternativ till ^f('mobilt_b_operatorNuvarandeVilken_s')^ där jag bor eller vistas",
-      "Bra service och bemötande hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "Jag gillar ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ är \"tillräckligt\" bra för att jag inte ska bemöda mig att byta",
-      "Har varit kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ länge",
-      "Har familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "Har särskilda förmåner eller rabatter hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "Har ett extra säkert abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
-      "Streamingtjänster ingår hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. Netflix, HBO Max, Disney+, Viaplay, Prime Video)",
-      "Har även ^f('mobilt_b_operatorNuvarandeVilken_s')^ som leverantör för andra tjänster hemma (t.ex. bredband, tv/streaming)",
+      "(variabel) kommer ofta med bra erbjudanden",
+      "(variabel) är billiga(st)",
+      "(variabel) är prisvärda sett till vad jag får",
+      "(variabel) har riktigt bra nät/täckning",
+      "(variabel) har butik(er) jag kan besöka",
+      "Det känns tryggt och stabilt att vara kund hos (variabel)",
+      "Det finns inget vettigt alternativ till (variabel) där jag bor eller vistas",
+      "Bra service och bemötande hos (variabel)",
+      "Jag gillar (variabel)",
+      "(variabel) är \"tillräckligt\" bra för att jag inte ska bemöda mig att byta",
+      "Har varit kund hos (variabel) länge",
+      "Har familjeabonnemang hos (variabel)",
+      "Har särskilda förmåner eller rabatter hos (variabel)",
+      "Har ett extra säkert abonnemang hos (variabel) (t.ex. spärr mot bluffsamtal och sms, antivirus, nätskydd)",
+      "Streamingtjänster ingår hos (variabel) (t.ex. Netflix, HBO Max, Disney+, Viaplay, Prime Video)",
+      "Har även (variabel) som leverantör för andra tjänster hemma (t.ex. bredband, tv/streaming)",
       "Har bindningstid och/eller avbetalningar på abonnemanget",
       "Det känns för krångligt att byta operatör",
       "Annat (vad?)",
@@ -982,24 +982,24 @@
     ],
     "category": "Loyalty",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_loyalty_kvarom24_varfor"
   },
   {
-    "question": "Vad bidrar till känslan att du inte kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
-    "pritty_question": "Vad bidrar till känslan att du inte kommer vara kvar som kund hos ^f('(variabel)')^ om 24 månader?",
+    "original_question": "Vad bidrar till känslan att du inte kommer vara kvar som kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ om 24 månader?",
+    "question": "Vad bidrar till känslan att du inte kommer vara kvar som kund hos (variabel) om 24 månader?",
     "answer_alternatives": [
       "Vill sänka mina kostnader",
-      "Mitt abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ känns inte tillräckligt prisvärt",
+      "Mitt abonnemang hos (variabel) känns inte tillräckligt prisvärt",
       "Andra operatörer kommer regelbundet med bra erbjudanden",
-      "Dåligt nät/täckning hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har höjt priset på mitt abonnemang flera gånger",
-      "Dålig service eller bemötande hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Dåligt nät/täckning hos (variabel)",
+      "(variabel) har höjt priset på mitt abonnemang flera gånger",
+      "Dålig service eller bemötande hos (variabel)",
       "Vill ha familjeabonnemang",
       "Vill samla mina tjänster hos någon (t.ex. mobiltelefoni, bredband, tv/streaming)",
       "Mina behov eller min ekonomi kommer se annorlunda ut om två år",
       "Kommer att behöva en ny telefon inom två år",
-      "Får inga särskilda förmåner eller rabatter som gör det värt att stanna hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Får inga särskilda förmåner eller rabatter som gör det värt att stanna hos (variabel)",
       "Planerar att byta operatör när min bindningstid och/eller avbetalning tar slut",
       "Byter mobiloperatör då och då för att få en bra deal",
       "Jag har haft tankar på att byta länge, bara inte tagit tag i det",
@@ -1010,12 +1010,12 @@
     ],
     "category": "Loyalty",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_loyalty_kvarom24_varfor"
   },
   {
+    "original_question": "Har du någon bindningstid på ditt nuvarande mobilabonnemang?",
     "question": "Har du någon bindningstid på ditt nuvarande mobilabonnemang?",
-    "pritty_question": "Har du någon bindningstid på ditt nuvarande mobilabonnemang?",
     "answer_alternatives": [
       "Ja",
       "Nej, har ingen bindningstid",
@@ -1023,12 +1023,12 @@
     ],
     "category": "Bindningstider",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bindningstid"
   },
   {
+    "original_question": "När skaffade/band du upp dig på ditt nuvarande abonnemang?",
     "question": "När skaffade/band du upp dig på ditt nuvarande abonnemang?",
-    "pritty_question": "När skaffade/band du upp dig på ditt nuvarande abonnemang?",
     "answer_alternatives": [
       "För max ett år sedan",
       "För längre tid än ett år sedan",
@@ -1036,12 +1036,12 @@
     ],
     "category": "Bindningstider",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bindningstid_nar"
   },
   {
+    "original_question": "Är bindningstiden kopplad till en telefon som betalas av tillsammans med abonnemanget?",
     "question": "Är bindningstiden kopplad till en telefon som betalas av tillsammans med abonnemanget?",
-    "pritty_question": "Är bindningstiden kopplad till en telefon som betalas av tillsammans med abonnemanget?",
     "answer_alternatives": [
       "Ja",
       "Nej, betalar inte av en telefon med abonnemanget",
@@ -1049,12 +1049,12 @@
     ],
     "category": "Bindningstider",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bindning_telefon"
   },
   {
+    "original_question": "Har du rabatt på abonnemanget under bindningstiden?",
     "question": "Har du rabatt på abonnemanget under bindningstiden?",
-    "pritty_question": "Har du rabatt på abonnemanget under bindningstiden?",
     "answer_alternatives": [
       "Ja",
       "Nej, har ingen rabatt på abonnemanget",
@@ -1062,12 +1062,12 @@
     ],
     "category": "Bindningstider",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bindning_rabatt"
   },
   {
+    "original_question": "Hur lång tid har du kvar på bindningstiden innan den tar slut?",
     "question": "Hur lång tid har du kvar på bindningstiden innan den tar slut?",
-    "pritty_question": "Hur lång tid har du kvar på bindningstiden innan den tar slut?",
     "answer_alternatives": [
       "1-6 månader",
       "7-12 månader",
@@ -1077,12 +1077,12 @@
     ],
     "category": "Bindningstider",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bindning_narslut"
   },
   {
+    "original_question": "Planerar du att göra något särskilt när bindningstiden tar slut?",
     "question": "Planerar du att göra något särskilt när bindningstiden tar slut?",
-    "pritty_question": "Planerar du att göra något särskilt när bindningstiden tar slut?",
     "answer_alternatives": [
       "Ja (vad?)",
       "Nej, har ingen särskild \"plan\"",
@@ -1090,12 +1090,12 @@
     ],
     "category": "Bindningstider",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_bindning_slut_plan"
   },
   {
+    "original_question": "Vilken eller vilka mobiloperatörer tycker du brukar prata om sitt nät och sin täckning?",
     "question": "Vilken eller vilka mobiloperatörer tycker du brukar prata om sitt nät och sin täckning?",
-    "pritty_question": "Vilken eller vilka mobiloperatörer tycker du brukar prata om sitt nät och sin täckning?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1111,12 +1111,12 @@
     ],
     "category": "Nät",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_vilkakommunicerar"
   },
   {
+    "original_question": "Vad av detta förknippar du spontant med \"Sveriges bästa mobilnät\"?",
     "question": "Vad av detta förknippar du spontant med \"Sveriges bästa mobilnät\"?",
-    "pritty_question": "Vad av detta förknippar du spontant med \"Sveriges bästa mobilnät\"?",
     "answer_alternatives": [
       "Täckning på flest platser i landet",
       "Högst maxhastighet för data",
@@ -1129,12 +1129,12 @@
     ],
     "category": "Nät",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_forknippar_bastanat"
   },
   {
+    "original_question": "Upplever du att det är någon skillnad mellan de olika operatörernas nät/täckning i dagsläget?",
     "question": "Upplever du att det är någon skillnad mellan de olika operatörernas nät/täckning i dagsläget?",
-    "pritty_question": "Upplever du att det är någon skillnad mellan de olika operatörernas nät/täckning i dagsläget?",
     "answer_alternatives": [
       "Ja, mycket stor",
       "Ja, ganska stor",
@@ -1144,12 +1144,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_skillnader"
   },
   {
+    "original_question": "Vad är det främst som du uppfattar skiljer sig mellan de olika operatörers nät/täckning?",
     "question": "Vad är det främst som du uppfattar skiljer sig mellan de olika operatörers nät/täckning?",
-    "pritty_question": "Vad är det främst som du uppfattar skiljer sig mellan de olika operatörers nät/täckning?",
     "answer_alternatives": [
       "Var i landet de har täckning",
       "Hur många platser totalt de har täckning på",
@@ -1164,12 +1164,12 @@
     ],
     "category": "Nät",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_skillnad_vad"
   },
   {
+    "original_question": "Om du skulle gissa, tror du att skillnaden mellan de olika operatörernas nät/täckning kommer att vara större eller mindre om fem år, jämfört med idag?",
     "question": "Om du skulle gissa, tror du att skillnaden mellan de olika operatörernas nät/täckning kommer att vara större eller mindre om fem år, jämfört med idag?",
-    "pritty_question": "Om du skulle gissa, tror du att skillnaden mellan de olika operatörernas nät/täckning kommer att vara större eller mindre om fem år, jämfört med idag?",
     "answer_alternatives": [
       "Större än idag",
       "Mindre än idag",
@@ -1178,12 +1178,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_idag_vs_femarsedan_gissa"
   },
   {
+    "original_question": "Vilken mobiloperatör skulle du spontant säga har Sveriges bästa nät/täckning?",
     "question": "Vilken mobiloperatör skulle du spontant säga har Sveriges bästa nät/täckning?",
-    "pritty_question": "Vilken mobiloperatör skulle du spontant säga har Sveriges bästa nät/täckning?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1198,12 +1198,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_vembast"
   },
   {
+    "original_question": "Vilken mobiloperatör skulle du spontant säga har Sveriges snabbaste mobilnät?",
     "question": "Vilken mobiloperatör skulle du spontant säga har Sveriges snabbaste mobilnät?",
-    "pritty_question": "Vilken mobiloperatör skulle du spontant säga har Sveriges snabbaste mobilnät?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1218,12 +1218,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_vemsnabbast"
   },
   {
+    "original_question": "Vilken mobiloperatörs nät skulle du spontant säga har täckning på flest platser i Sverige?",
     "question": "Vilken mobiloperatörs nät skulle du spontant säga har täckning på flest platser i Sverige?",
-    "pritty_question": "Vilken mobiloperatörs nät skulle du spontant säga har täckning på flest platser i Sverige?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1238,12 +1238,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_vemflestplatser"
   },
   {
+    "original_question": "Vilken mobiloperatör skulle du spontant säga har Sveriges säkraste mobilnät?",
     "question": "Vilken mobiloperatör skulle du spontant säga har Sveriges säkraste mobilnät?",
-    "pritty_question": "Vilken mobiloperatör skulle du spontant säga har Sveriges säkraste mobilnät?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1258,12 +1258,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_vemsakrast"
   },
   {
+    "original_question": "Vad av detta känns mest värdefullt för dig att ha hos din mobiloperatör?",
     "question": "Vad av detta känns mest värdefullt för dig att ha hos din mobiloperatör?",
-    "pritty_question": "Vad av detta känns mest värdefullt för dig att ha hos din mobiloperatör?",
     "answer_alternatives": [
       "Sveriges snabbaste mobilnät",
       "Mobilnätet med täckning på flest platser i Sverige",
@@ -1272,12 +1272,12 @@
     ],
     "category": "Nät",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_tackning_vadmestvart"
   },
   {
-    "question": "På en skala från 1-10, hur mycket bidrar ^f('mobilt_b_operatorNuvarandeVilken_s')^s nät/täckning till att du är kund hos dem?",
-    "pritty_question": "På en skala från 1-10, hur mycket bidrar ^f('(variabel)')^s nät/täckning till att du är kund hos dem?",
+    "original_question": "På en skala från 1-10, hur mycket bidrar ^f('mobilt_b_operatorNuvarandeVilken_s')^s nät/täckning till att du är kund hos dem?",
+    "question": "På en skala från 1-10, hur mycket bidrar (variabel)s nät/täckning till att du är kund hos dem?",
     "answer_alternatives": [
       "10 – väldigt mycket - det är den viktigaste anledningen till att jag är kund där",
       "9",
@@ -1293,52 +1293,52 @@
     ],
     "category": "Nät",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_tackning_hurmkt_bidrar"
   },
   {
-    "question": "Hur mycket extra per månad är det värt för dig att ha ^f('mobilt_b_operatorNuvarandeVilken_s')^s nät/täckning, jämfört med om du hade en annan mobiloperatör?",
-    "pritty_question": "Hur mycket extra per månad är det värt för dig att ha ^f('(variabel)')^s nät/täckning, jämfört med om du hade en annan mobiloperatör?",
+    "original_question": "Hur mycket extra per månad är det värt för dig att ha ^f('mobilt_b_operatorNuvarandeVilken_s')^s nät/täckning, jämfört med om du hade en annan mobiloperatör?",
+    "question": "Hur mycket extra per månad är det värt för dig att ha (variabel)s nät/täckning, jämfört med om du hade en annan mobiloperatör?",
     "answer_alternatives": [
       "kr/mån"
     ],
     "category": "Nät",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_tackning_hurmkt_vart"
   },
   {
-    "question": "Har ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjt priset på ditt mobilabonnemang någon gång under det senaste året?",
-    "pritty_question": "Har ^f('(variabel)')^ höjt priset på ditt mobilabonnemang någon gång under det senaste året?",
+    "original_question": "Har ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjt priset på ditt mobilabonnemang någon gång under det senaste året?",
+    "question": "Har (variabel) höjt priset på ditt mobilabonnemang någon gång under det senaste året?",
     "answer_alternatives": [
-      "Nej, ^f('mobilt_b_operatorNuvarandeVilken_s')^ har inte höjt priset",
-      "Ja, ^f('mobilt_b_operatorNuvarandeVilken_s')^ har höjt priset en aning",
-      "Ja, ^f('mobilt_b_operatorNuvarandeVilken_s')^ har höjt priset rejält",
-      "Nja, ^f('mobilt_b_operatorNuvarandeVilken_s')^ försökte höja priset men jag fick till en specialdeal",
+      "Nej, (variabel) har inte höjt priset",
+      "Ja, (variabel) har höjt priset en aning",
+      "Ja, (variabel) har höjt priset rejält",
+      "Nja, (variabel) försökte höja priset men jag fick till en specialdeal",
       "Osäker/vet inte"
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pricehike_noterat"
   },
   {
-    "question": "Förstod du anledningen till varför ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset på ditt abonnemang, när de gjorde det?",
-    "pritty_question": "Förstod du anledningen till varför ^f('(variabel)')^ höjde priset på ditt abonnemang, när de gjorde det?",
+    "original_question": "Förstod du anledningen till varför ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset på ditt abonnemang, när de gjorde det?",
+    "question": "Förstod du anledningen till varför (variabel) höjde priset på ditt abonnemang, när de gjorde det?",
     "answer_alternatives": [
       "Ja",
       "Delvis",
-      "Nej, förstod inte alls varför ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset",
+      "Nej, förstod inte alls varför (variabel) höjde priset",
       "Osäker/vet inte"
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pricehike_forstod"
   },
   {
+    "original_question": "Berodde prishöjningen på att en rabatt som du hade på abonnemanget tog slut?",
     "question": "Berodde prishöjningen på att en rabatt som du hade på abonnemanget tog slut?",
-    "pritty_question": "Berodde prishöjningen på att en rabatt som du hade på abonnemanget tog slut?",
     "answer_alternatives": [
       "Ja",
       "Nej",
@@ -1346,12 +1346,12 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_pricehike_rabatt_gickut"
   },
   {
-    "question": "Fick du/ni något extra på köpet när ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset?",
-    "pritty_question": "Fick du/ni något extra på köpet när ^f('(variabel)')^ höjde priset?",
+    "original_question": "Fick du/ni något extra på köpet när ^f('mobilt_b_operatorNuvarandeVilken_s')^ höjde priset?",
+    "question": "Fick du/ni något extra på köpet när (variabel) höjde priset?",
     "answer_alternatives": [
       "Ja",
       "Nej, fick inget extra på köpet",
@@ -1359,12 +1359,12 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pricehike_extra"
   },
   {
-    "question": "Hur kommunicerade ^f('mobilt_b_operatorNuvarandeVilken_s')^ prishöjningen till dig?",
-    "pritty_question": "Hur kommunicerade ^f('(variabel)')^ prishöjningen till dig?",
+    "original_question": "Hur kommunicerade ^f('mobilt_b_operatorNuvarandeVilken_s')^ prishöjningen till dig?",
+    "question": "Hur kommunicerade (variabel) prishöjningen till dig?",
     "answer_alternatives": [
       "\"Vi höjer priset på ditt abonnemang\"",
       "\"Vi lägger till […] i ditt abonnemang (t.ex. högre hastighet, nya tjänster), och höjer därför priset”",
@@ -1375,12 +1375,12 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "bb_pricehike_komm_hur"
   },
   {
-    "question": "Övervägde du någonsin att lämna ^f('mobilt_b_operatorNuvarandeVilken_s')^ när de höjde priset på ditt abonnemang?",
-    "pritty_question": "Övervägde du någonsin att lämna ^f('(variabel)')^ när de höjde priset på ditt abonnemang?",
+    "original_question": "Övervägde du någonsin att lämna ^f('mobilt_b_operatorNuvarandeVilken_s')^ när de höjde priset på ditt abonnemang?",
+    "question": "Övervägde du någonsin att lämna (variabel) när de höjde priset på ditt abonnemang?",
     "answer_alternatives": [
       "Nej, det gjorde jag inte",
       "Ja, men jag valde att stanna kvar",
@@ -1390,27 +1390,27 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pricehike_totaltsett"
   },
   {
-    "question": "Vad var det som fick dig att stanna hos ^f('mobilt_b_operatorNuvarandeVilken_s')^, trots att du övervägde att byta operatör när de höjde priset?",
-    "pritty_question": "Vad var det som fick dig att stanna hos ^f('(variabel)')^, trots att du övervägde att byta operatör när de höjde priset?",
+    "original_question": "Vad var det som fick dig att stanna hos ^f('mobilt_b_operatorNuvarandeVilken_s')^, trots att du övervägde att byta operatör när de höjde priset?",
+    "question": "Vad var det som fick dig att stanna hos (variabel), trots att du övervägde att byta operatör när de höjde priset?",
     "answer_alternatives": [
-      "Förhandlade med ^f('mobilt_b_operatorNuvarandeVilken_s')^ och fick en bra deal",
+      "Förhandlade med (variabel) och fick en bra deal",
       "Fick något extra på köpet i samband med att de höjde priset (t.ex. mer surf/data)",
       "Prishöjningen var för liten för att jag skulle orka bry mig",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ har bäst nät/täckning",
+      "(variabel) har bäst nät/täckning",
       "Fanns/finns inget bättre eller billigare alternativ hos någon annan",
       "Mitt abonnemang är fortfarande \"helt okej\" prisvärt",
-      "Har varit kund länge hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Har varit kund länge hos (variabel)",
       "Krångligt att byta operatör",
-      "Har andra tjänster än mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. bredband, tv/streaming)",
+      "Har andra tjänster än mobilabonnemang hos (variabel) (t.ex. bredband, tv/streaming)",
       "Har bindningstid eller avbetalningar kvar på abonnemanget",
       "Väntar med att byta tills det blir dags för ny telefon",
-      "Tänker att det kommer komma ett bättre erbjudande från ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Tänker att det kommer komma ett bättre erbjudande från (variabel)",
       "Finns ingen annan operatör som jag är sugen på att byta till",
-      "Gillar verkligen ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Gillar verkligen (variabel)",
       "Det ingår tjänster som ingen annan erbjuder (t.ex. streaming, säkerhet)",
       "Det är inte jag som bestämmer över abonnemanget",
       "Annat kom emellan, jag orkade inte ta tag i det",
@@ -1419,12 +1419,12 @@
     ],
     "category": "Price hikes",
     "answer_type": "multi",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pris_varforstanna"
   },
   {
+    "original_question": "Vad tror du kommer att hända med priset på ditt mobilabonnemang under det kommande året?",
     "question": "Vad tror du kommer att hända med priset på ditt mobilabonnemang under det kommande året?",
-    "pritty_question": "Vad tror du kommer att hända med priset på ditt mobilabonnemang under det kommande året?",
     "answer_alternatives": [
       "Priset kommer öka",
       "Priset kommer minska",
@@ -1433,12 +1433,12 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_pris_framat_handa"
   },
   {
+    "original_question": "Hur säker känner du dig på att priset på ditt mobilabonnemang kommer att öka under det kommande året?",
     "question": "Hur säker känner du dig på att priset på ditt mobilabonnemang kommer att öka under det kommande året?",
-    "pritty_question": "Hur säker känner du dig på att priset på ditt mobilabonnemang kommer att öka under det kommande året?",
     "answer_alternatives": [
       "Väldigt säker",
       "Ganska säker",
@@ -1447,30 +1447,30 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_pris_oka_hursaker"
   },
   {
+    "original_question": "Finns det något särskilt som gör att du tror att priset på ditt mobilabonnemang kommer att öka?",
     "question": "Finns det något särskilt som gör att du tror att priset på ditt mobilabonnemang kommer att öka?",
-    "pritty_question": "Finns det något särskilt som gör att du tror att priset på ditt mobilabonnemang kommer att öka?",
     "answer_alternatives": [],
     "category": "Price hikes",
     "answer_type": "öppen",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_pris_framat_varfordyrare"
   },
   {
+    "original_question": "Maxkostnad för mobilabonnemanget?",
     "question": "Maxkostnad för mobilabonnemanget?",
-    "pritty_question": "Maxkostnad för mobilabonnemanget?",
     "answer_alternatives": [],
     "category": "Price hikes",
     "answer_type": "skala_3d",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": null
   },
   {
-    "question": "Hur mycket mer per månad skulle du absolut max vara beredd att betala för ditt mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^, innan du skulle överväga andra alternativ?",
-    "pritty_question": "Hur mycket mer per månad skulle du absolut max vara beredd att betala för ditt mobilabonnemang hos ^f('(variabel)')^, innan du skulle överväga andra alternativ?",
+    "original_question": "Hur mycket mer per månad skulle du absolut max vara beredd att betala för ditt mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^, innan du skulle överväga andra alternativ?",
+    "question": "Hur mycket mer per månad skulle du absolut max vara beredd att betala för ditt mobilabonnemang hos (variabel), innan du skulle överväga andra alternativ?",
     "answer_alternatives": [
       "0 kr/mån - är inte beredd att betala en krona mer än idag",
       "+25 kr/mån",
@@ -1487,37 +1487,37 @@
     ],
     "category": "Price hikes",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pris_tak"
   },
   {
+    "original_question": "Om månadskostnaden för ditt mobilabonnemang skulle öka mer än vad du är beredd att betala, vad tror du att du skulle göra då?",
     "question": "Om månadskostnaden för ditt mobilabonnemang skulle öka mer än vad du är beredd att betala, vad tror du att du skulle göra då?",
-    "pritty_question": "Om månadskostnaden för ditt mobilabonnemang skulle öka mer än vad du är beredd att betala, vad tror du att du skulle göra då?",
     "answer_alternatives": [
       "Rådgöra med någon jag känner",
       "Byta operatör direkt",
       "Jämföra erbjudanden hos andra operatörer",
-      "Byta till ett billigare abonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ (t.ex. mindre surf/data)",
-      "Kontakta ^f('mobilt_b_operatorNuvarandeVilken_s')^ och förhandla om priset",
-      "Skaffa ett familjeabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ för att sänka kostnaden",
-      "Samla fler tjänster hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ för paket-/mängrabatt (t.ex. bredband, tv/streaming)",
+      "Byta till ett billigare abonnemang hos (variabel) (t.ex. mindre surf/data)",
+      "Kontakta (variabel) och förhandla om priset",
+      "Skaffa ett familjeabonnemang hos (variabel) för att sänka kostnaden",
+      "Samla fler tjänster hos (variabel) för paket-/mängrabatt (t.ex. bredband, tv/streaming)",
       "Säga upp något hemma för att spara pengar (t.ex. streaming, underhållning, nyheter, ljudböcker)",
       "Överväga kontantkort istället för abonnemang",
-      "Vänta och se om det kommer ett bättre erbjudande från ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Vänta och se om det kommer ett bättre erbjudande från (variabel)",
       "Acceptera den högre kostnaden, även om det skulle ta emot",
-      "Framföra klagomål eller lämna en negativ recension om ^f('mobilt_b_operatorNuvarandeVilken_s')^",
-      "Tappa förtroendet för ^f('mobilt_b_operatorNuvarandeVilken_s')^ och överväga att lämna framöver",
+      "Framföra klagomål eller lämna en negativ recension om (variabel)",
+      "Tappa förtroendet för (variabel) och överväga att lämna framöver",
       "Annat (vad?)",
       "Osäker/vet inte"
     ],
     "category": "Price hikes",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_pris_overtak_vad"
   },
   {
-    "question": "Totalt sett, hur prisvärt upplever du att ditt mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ är?",
-    "pritty_question": "Totalt sett, hur prisvärt upplever du att ditt mobilabonnemang hos ^f('(variabel)')^ är?",
+    "original_question": "Totalt sett, hur prisvärt upplever du att ditt mobilabonnemang hos ^f('mobilt_b_operatorNuvarandeVilken_s')^ är?",
+    "question": "Totalt sett, hur prisvärt upplever du att ditt mobilabonnemang hos (variabel) är?",
     "answer_alternatives": [
       "1 - inte alls prisvärt",
       "2",
@@ -1533,12 +1533,12 @@
     ],
     "category": "Prisvärde",
     "answer_type": "singel",
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_prisvarde_hurprisvart"
   },
   {
+    "original_question": "Rent allmänt, vad innebär det för dig att ett mobilabonnemang är prisvärt?",
     "question": "Rent allmänt, vad innebär det för dig att ett mobilabonnemang är prisvärt?",
-    "pritty_question": "Rent allmänt, vad innebär det för dig att ett mobilabonnemang är prisvärt?",
     "answer_alternatives": [
       "Att någon annan betalar abonnemanget åt mig",
       "Att det är det billigaste abonnemanget man kan ha",
@@ -1562,14 +1562,14 @@
     ],
     "category": "Prisvärde",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_prisvarde_vadbetyder"
   },
   {
-    "question": "På en skala från 1-10, hur mycket bidrar priset till att du är kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "På en skala från 1-10, hur mycket bidrar priset till att du är kund hos ^f('(variabel)')^?",
+    "original_question": "På en skala från 1-10, hur mycket bidrar priset till att du är kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "På en skala från 1-10, hur mycket bidrar priset till att du är kund hos (variabel)?",
     "answer_alternatives": [
-      "10 – väldigt mycket - priset är den viktigaste anledningen till att jag är kund hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "10 – väldigt mycket - priset är den viktigaste anledningen till att jag är kund hos (variabel)",
       "9",
       "8",
       "7",
@@ -1583,12 +1583,12 @@
     ],
     "category": "Prisvärde",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "mobilt_pris_hurmkt_bidrar"
   },
   {
+    "original_question": "Vilket märke är det på din nuvarande mobiltelefon?",
     "question": "Vilket märke är det på din nuvarande mobiltelefon?",
-    "pritty_question": "Vilket märke är det på din nuvarande mobiltelefon?",
     "answer_alternatives": [
       "predefined list: Telefontillverkare",
       "Annat märke",
@@ -1596,12 +1596,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_vilketmarke"
   },
   {
+    "original_question": "Vilken modell är det på din iPhone?",
     "question": "Vilken modell är det på din iPhone?",
-    "pritty_question": "Vilken modell är det på din iPhone?",
     "answer_alternatives": [
       "iPhone SE",
       "iPhone 8 eller äldre",
@@ -1640,12 +1640,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_vilkeniphone"
   },
   {
+    "original_question": "Hur länge har du haft din nuvarande telefon?",
     "question": "Hur länge har du haft din nuvarande telefon?",
-    "pritty_question": "Hur länge har du haft din nuvarande telefon?",
     "answer_alternatives": [
       "0-6 månader",
       "7-12 månader",
@@ -1657,21 +1657,21 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_hurlangehaft"
   },
   {
+    "original_question": "BYTA TELEFON - hur?",
     "question": "BYTA TELEFON - hur?",
-    "pritty_question": "BYTA TELEFON - hur?",
     "answer_alternatives": [],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": null
   },
   {
+    "original_question": "Hur gick det till när du skaffade din nuvarande telefon?",
     "question": "Hur gick det till när du skaffade din nuvarande telefon?",
-    "pritty_question": "Hur gick det till när du skaffade din nuvarande telefon?",
     "answer_alternatives": [
       "Köpte den kontant",
       "Skaffade / betalar av den tillsammans med ett mobilabonnemang",
@@ -1683,12 +1683,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_hurskaffa"
   },
   {
+    "original_question": "Vad var det för slags telefon du fick?",
     "question": "Vad var det för slags telefon du fick?",
-    "pritty_question": "Vad var det för slags telefon du fick?",
     "answer_alternatives": [
       "En telefon som köptes fabriksny/oanvänd",
       "En telefon som köptes rekonditionerad/uppfräschad med garanti",
@@ -1698,12 +1698,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_fick_fabriksny"
   },
   {
+    "original_question": "Vad fick dig att välja avbetalning när du köpte telefonen?",
     "question": "Vad fick dig att välja avbetalning när du köpte telefonen?",
-    "pritty_question": "Vad fick dig att välja avbetalning när du köpte telefonen?",
     "answer_alternatives": [
       "Jag fick rabatt på telefonen när jag köpte den tillsammans med ett abonnemang",
       "Jag hade inte råd att köpa telefonen kontant",
@@ -1724,12 +1724,12 @@
     ],
     "category": "Telefon",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_avbetalning_varfor"
   },
   {
+    "original_question": "Vad var det som gjorde att du valde att köpa telefonen kontant?",
     "question": "Vad var det som gjorde att du valde att köpa telefonen kontant?",
-    "pritty_question": "Vad var det som gjorde att du valde att köpa telefonen kontant?",
     "answer_alternatives": [
       "Jag vill inte vara bunden till avbetalningar eller ett abonnemang",
       "Jag föredrar att köpa saker kontant om jag har råd",
@@ -1749,12 +1749,12 @@
     ],
     "category": "Telefon",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_kontant_varfor"
   },
   {
+    "original_question": "Var skaffade du din nuvarande telefon?",
     "question": "Var skaffade du din nuvarande telefon?",
-    "pritty_question": "Var skaffade du din nuvarande telefon?",
     "answer_alternatives": [
       "Hos min nuvarande mobiloperatör",
       "Hos en annan mobiloperatör",
@@ -1769,12 +1769,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_varskaffa"
   },
   {
-    "question": "Finns det någon särskild anledning till att du skaffade din telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Finns det någon särskild anledning till att du skaffade din telefon hos ^f('(variabel)')^?",
+    "original_question": "Finns det någon särskild anledning till att du skaffade din telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Finns det någon särskild anledning till att du skaffade din telefon hos (variabel)?",
     "answer_alternatives": [
       "De hade snabb(ast) leverans",
       "Jag kunde hämta ut/få med mig telefonen direkt",
@@ -1800,42 +1800,42 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "hard_telefon_hos_op"
   },
   {
-    "question": "Fanns det någon särskild anledning till att du inte skaffade din telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
-    "pritty_question": "Fanns det någon särskild anledning till att du inte skaffade din telefon hos ^f('(variabel)')^?",
+    "original_question": "Fanns det någon särskild anledning till att du inte skaffade din telefon hos ^f('mobilt_b_operatorNuvarandeVilken_s')^?",
+    "question": "Fanns det någon särskild anledning till att du inte skaffade din telefon hos (variabel)?",
     "answer_alternatives": [
-      "Går inte att köpa telefoner hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Går inte att köpa telefoner hos (variabel)",
       "Jag hade bråttom/behövde fixa en ny telefon snabbt",
       "De hade ingen kampanj/rabatt/specialerbjudande",
       "Telefonen hade varit dyrare att köpa där",
       "Fick ett bättre erbjudande där jag köpte telefonen",
-      "^f('mobilt_b_operatorNuvarandeVilken_s')^ erbjöd inte möjligheten att sälja/byta in min förra telefon och få rabatt på den nya",
+      "(variabel) erbjöd inte möjligheten att sälja/byta in min förra telefon och få rabatt på den nya",
       "Brukar inte gå till min operatör när jag ska köpa ny telefon",
-      "Är inte intresserad av att köpa telefon från ^f('mobilt_b_operatorNuvarandeVilken_s')^, det räcker att ha mitt abonnemang där",
-      "Det var för krångligt att köpa telefon på ^f('mobilt_b_operatorNuvarandeVilken_s')^s hemsida",
+      "Är inte intresserad av att köpa telefon från (variabel), det räcker att ha mitt abonnemang där",
+      "Det var för krångligt att köpa telefon på (variabel)s hemsida",
       "Är redan kund och trivs med att handla telefoner på ett annat ställe",
       "Ville inte binda mig till ett abonnemang",
-      "För dåligt utbud av telefoner hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "För dåligt utbud av telefoner hos (variabel)",
       "Planerar att byta operatör snart",
-      "Har ingen ^f('mobilt_b_operatorNuvarandeVilken_s')^-butik i närheten där jag bor/jobbar/vistas",
+      "Har ingen (variabel)-butik i närheten där jag bor/jobbar/vistas",
       "Fick tips/rekommendation att köpa telefonen på ett annat ställe",
-      "Telefonen jag ville ha fanns inte att köpa hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Telefonen jag ville ha fanns inte att köpa hos (variabel)",
       "Jag ville köpa en begagnad/uppfräschad telefon",
-      "Litar inte på att jag skulle få bra hjälp eller service med telefonen hos ^f('mobilt_b_operatorNuvarandeVilken_s')^",
+      "Litar inte på att jag skulle få bra hjälp eller service med telefonen hos (variabel)",
       "Annat (vad?)",
       "Nej, det fanns ingen särskild anledning"
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": "mobilt_b_operatorNuvarandeVilken_s",
+    "refference_used": "mobilt_b_operatorNuvarandeVilken_s",
     "variable_name": "hard_telefon_ej_hos_op"
   },
   {
+    "original_question": "Vilken annan operatör var det du köpte telefonen från?",
     "question": "Vilken annan operatör var det du köpte telefonen från?",
-    "pritty_question": "Vilken annan operatör var det du köpte telefonen från?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1850,12 +1850,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_telefon_annanop_vilken"
   },
   {
+    "original_question": "Hur köpte/beställde du din nuvarande telefon?",
     "question": "Hur köpte/beställde du din nuvarande telefon?",
-    "pritty_question": "Hur köpte/beställde du din nuvarande telefon?",
     "answer_alternatives": [
       "I en butik",
       "På internet",
@@ -1866,12 +1866,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_butik_eller_online"
   },
   {
+    "original_question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
     "question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
-    "pritty_question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
     "answer_alternatives": [
       "Ja, den var fabriksny/oanvänd",
       "Nej, men den var rekonditionerad/uppfräschad och kom med garanti",
@@ -1880,12 +1880,12 @@
     ],
     "category": "Telefon",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_ny_fabriksny"
   },
   {
+    "original_question": "Är det första gången som du har köpt en rekonditionerad/uppfräschad telefon?",
     "question": "Är det första gången som du har köpt en rekonditionerad/uppfräschad telefon?",
-    "pritty_question": "Är det första gången som du har köpt en rekonditionerad/uppfräschad telefon?",
     "answer_alternatives": [
       "Ja, det är första gången",
       "Nej, köpte även min förra telefon rekonditionerad/uppfräschad",
@@ -1894,12 +1894,12 @@
     ],
     "category": "Telefon",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_refurb_forstakop"
   },
   {
+    "original_question": "Från vilket företag/butik köpte du telefonen?",
     "question": "Från vilket företag/butik köpte du telefonen?",
-    "pritty_question": "Från vilket företag/butik köpte du telefonen?",
     "answer_alternatives": [
       "Blocket",
       "C&C",
@@ -1939,12 +1939,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_kopt_fran_foretag_senaste012"
   },
   {
+    "original_question": "Hidden: individer som köpt telefon från sin nuvarande operatör senaste 0-12 mån - vilken?",
     "question": "Hidden: individer som köpt telefon från sin nuvarande operatör senaste 0-12 mån - vilken?",
-    "pritty_question": "Hidden: individer som köpt telefon från sin nuvarande operatör senaste 0-12 mån - vilken?",
     "answer_alternatives": [
       "Comviq",
       "Halebop",
@@ -1958,12 +1958,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_kopt_fran_nuvarande_op_senaste012"
   },
   {
+    "original_question": "Hidden: individer som köpt telefon direkt från tillverkaren senaste 0-12 mån - vilken?",
     "question": "Hidden: individer som köpt telefon direkt från tillverkaren senaste 0-12 mån - vilken?",
-    "pritty_question": "Hidden: individer som köpt telefon direkt från tillverkaren senaste 0-12 mån - vilken?",
     "answer_alternatives": [
       "Apple",
       "Google",
@@ -1975,12 +1975,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_kopt_fran_tillverkare_senaste012"
   },
   {
+    "original_question": "Övervägde du vid något tillfälle att köpa en rekonditionerad/uppfräschad telefon, istället för en fabriksny/oanvänd?",
     "question": "Övervägde du vid något tillfälle att köpa en rekonditionerad/uppfräschad telefon, istället för en fabriksny/oanvänd?",
-    "pritty_question": "Övervägde du vid något tillfälle att köpa en rekonditionerad/uppfräschad telefon, istället för en fabriksny/oanvänd?",
     "answer_alternatives": [
       "Ja, men prisskillnaden var för liten jämfört med att köpa en ny/oanvänd telefon",
       "Ja, men kändes tveksamt att den skulle kunna hålla lika länge som en ny/oanvänd telefon",
@@ -1994,12 +1994,12 @@
     ],
     "category": "Telefon",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_overvagdes_refurb"
   },
   {
+    "original_question": "Gjorde du något av följande innan du bestämde dig för att köpa/välja din nuvarande telefon?",
     "question": "Gjorde du något av följande innan du bestämde dig för att köpa/välja din nuvarande telefon?",
-    "pritty_question": "Gjorde du något av följande innan du bestämde dig för att köpa/välja din nuvarande telefon?",
     "answer_alternatives": [
       "Jämförde priser/erbjudanden på prisjämförelsesajter",
       "Jämförde priser/erbjudanden på mobiloperatörers hemsidor",
@@ -2024,12 +2024,12 @@
     ],
     "category": "Telefon",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "mobilt_nytfn_innankop"
   },
   {
+    "original_question": "Var köpet av din nuvarande telefon planerat eller oplanerat?",
     "question": "Var köpet av din nuvarande telefon planerat eller oplanerat?",
-    "pritty_question": "Var köpet av din nuvarande telefon planerat eller oplanerat?",
     "answer_alternatives": [
       "Planerat - hade bestämt mig i god tid innan att det var dags att byta",
       "Delvis planerat - hade kanske inte tänkt byta telefon just då, men ett bra tillfälle dök upp",
@@ -2038,12 +2038,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_planerat_oplanerat"
   },
   {
+    "original_question": "Hur lång avbetalningstid valde du på telefonen när du köpte den?",
     "question": "Hur lång avbetalningstid valde du på telefonen när du köpte den?",
-    "pritty_question": "Hur lång avbetalningstid valde du på telefonen när du köpte den?",
     "answer_alternatives": [
       "12 månader",
       "24 månader",
@@ -2054,12 +2054,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_forra_klimat_avbetal"
   },
   {
-    "question": "Vad tycker du om avbetalningstiden som du valde (d.v.s. ^f('hard_forra_klimat_avbetal')^)?",
-    "pritty_question": "Vad tycker du om avbetalningstiden som du valde (d.v.s. ^f('(variabel)')^)?",
+    "original_question": "Vad tycker du om avbetalningstiden som du valde (d.v.s. ^f('hard_forra_klimat_avbetal')^)?",
+    "question": "Vad tycker du om avbetalningstiden som du valde (d.v.s. (variabel))?",
     "answer_alternatives": [
       "Lagom lång",
       "Längre än jag hade velat ha",
@@ -2068,12 +2068,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": "hard_forra_klimat_avbetal",
+    "refference_used": "hard_forra_klimat_avbetal",
     "variable_name": "mobilt_hardvara_avbetalning_lagom"
   },
   {
+    "original_question": "Vad var det för märke på din förra telefon?",
     "question": "Vad var det för märke på din förra telefon?",
-    "pritty_question": "Vad var det för märke på din förra telefon?",
     "answer_alternatives": [
       "predefined list: Telefontillverkare",
       "Annat märke",
@@ -2081,33 +2081,33 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_marke_forra"
   },
   {
+    "original_question": "Hidden: samma OS på nuvarande telefon som på förra telefon?",
     "question": "Hidden: samma OS på nuvarande telefon som på förra telefon?",
-    "pritty_question": "Hidden: samma OS på nuvarande telefon som på förra telefon?",
     "answer_alternatives": [
       "Samma OS nuvarande och förra telefon",
       "EJ samma OS på nuvarande och förra telefon"
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_marke_iOS_hidden"
   },
   {
+    "original_question": "Förra telefonen - hur länge haft + vad hände med förra telefonen?",
     "question": "Förra telefonen - hur länge haft + vad hände med förra telefonen?",
-    "pritty_question": "Förra telefonen - hur länge haft + vad hände med förra telefonen?",
     "answer_alternatives": [],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": null
   },
   {
+    "original_question": "Hur länge hade du haft din förra telefon, innan du bytte till din nuvarande?",
     "question": "Hur länge hade du haft din förra telefon, innan du bytte till din nuvarande?",
-    "pritty_question": "Hur länge hade du haft din förra telefon, innan du bytte till din nuvarande?",
     "answer_alternatives": [
       "Ett halvår eller kortare",
       "Cirka 1 år",
@@ -2123,12 +2123,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_hurlangehaft_forra_ny"
   },
   {
+    "original_question": "Vad gjorde du med din förra telefon när du bytte till din nuvarande?",
     "question": "Vad gjorde du med din förra telefon när du bytte till din nuvarande?",
-    "pritty_question": "Vad gjorde du med din förra telefon när du bytte till din nuvarande?",
     "answer_alternatives": [
       "Lade den i en låda (t.ex. för att ha som reserv)",
       "Gav den till en familjemedlem (t.ex. barn, partner eller förälder)",
@@ -2148,12 +2148,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_gjorde_forra"
   },
   {
+    "original_question": "Är det första gången som du har lämnat/skickat in din gamla telefon för att få rabatt på en ny?",
     "question": "Är det första gången som du har lämnat/skickat in din gamla telefon för att få rabatt på en ny?",
-    "pritty_question": "Är det första gången som du har lämnat/skickat in din gamla telefon för att få rabatt på en ny?",
     "answer_alternatives": [
       "Ja, det är första gången",
       "Nej, gjorde även så med min förra telefon",
@@ -2162,12 +2162,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_tradein_repeat"
   },
   {
+    "original_question": "Hur gick det till när du skaffade din nuvarande telefon?",
     "question": "Hur gick det till när du skaffade din nuvarande telefon?",
-    "pritty_question": "Hur gick det till när du skaffade din nuvarande telefon?",
     "answer_alternatives": [
       "Köpte den kontant",
       "Skaffade / betalar av den tillsammans med ett mobilabonnemang",
@@ -2179,12 +2179,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_12plusman_hurskaffa"
   },
   {
+    "original_question": "Vad var det för slags telefon du fick?",
     "question": "Vad var det för slags telefon du fick?",
-    "pritty_question": "Vad var det för slags telefon du fick?",
     "answer_alternatives": [
       "En telefon som köptes fabriksny/oanvänd",
       "En telefon som köptes rekonditionerad/uppfräschad med garanti",
@@ -2194,12 +2194,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_12plusman_fick_fabriksny"
   },
   {
+    "original_question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
     "question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
-    "pritty_question": "Var din nuvarande telefon fabriksny/oanvänd när du köpte den?",
     "answer_alternatives": [
       "Ja, den var fabriksny/oanvänd",
       "Nej, men den var rekonditionerad/uppfräschad och kom med garanti",
@@ -2208,12 +2208,12 @@
     ],
     "category": "Telefon",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_12plusman_fabriksny"
   },
   {
+    "original_question": "Hur sugen är du på att byta/uppgradera till en nyare telefon än den du har?",
     "question": "Hur sugen är du på att byta/uppgradera till en nyare telefon än den du har?",
-    "pritty_question": "Hur sugen är du på att byta/uppgradera till en nyare telefon än den du har?",
     "answer_alternatives": [
       "Väldigt sugen",
       "Ganska sugen",
@@ -2222,12 +2222,12 @@
     ],
     "category": "Telefon",
     "answer_type": null,
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "hard_nasta_sugen"
   },
   {
+    "original_question": "Här kommer en allra sista fråga om telefoner! Vilket eller vilka av dessa påståenden instämmer du i?",
     "question": "Här kommer en allra sista fråga om telefoner! Vilket eller vilka av dessa påståenden instämmer du i?",
-    "pritty_question": "Här kommer en allra sista fråga om telefoner! Vilket eller vilka av dessa påståenden instämmer du i?",
     "answer_alternatives": [
       "Ny eller begagnad telefon spelar ingen roll, bara den är prisvärd",
       "Det har inte hänt något spännande med telefoner på flera år",
@@ -2253,12 +2253,12 @@
     ],
     "category": "Telefon",
     "answer_type": "multi",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "telefon_attiyd"
   },
   {
+    "original_question": "Spontant, vilken ålder tror du är den bästa i livet?",
     "question": "Spontant, vilken ålder tror du är den bästa i livet?",
-    "pritty_question": "Spontant, vilken ålder tror du är den bästa i livet?",
     "answer_alternatives": [
       "0-9 år",
       "10-19 år",
@@ -2274,12 +2274,12 @@
     ],
     "category": "Joker",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "generation_alder_basta"
   },
   {
+    "original_question": "Spontant, vilken ålder tror du är den jobbigaste i livet?",
     "question": "Spontant, vilken ålder tror du är den jobbigaste i livet?",
-    "pritty_question": "Spontant, vilken ålder tror du är den jobbigaste i livet?",
     "answer_alternatives": [
       "0-9 år",
       "10-19 år",
@@ -2295,12 +2295,12 @@
     ],
     "category": "Joker",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "generation_alder_jobbigaste"
   },
   {
-    "question": "Jämfört med din faktiska ålder (^f('b_alder')^ år) - hur gammal känner du dig inombords?",
-    "pritty_question": "Jämfört med din faktiska ålder (^f('(variabel)')^ år) - hur gammal känner du dig inombords?",
+    "original_question": "Jämfört med din faktiska ålder (^f('b_alder')^ år) - hur gammal känner du dig inombords?",
+    "question": "Jämfört med din faktiska ålder ((variabel) år) - hur gammal känner du dig inombords?",
     "answer_alternatives": [
       "Betydligt yngre (10+ år yngre)",
       "Något yngre (4–9 år yngre)",
@@ -2311,12 +2311,12 @@
     ],
     "category": "Joker",
     "answer_type": "singel",
-    "refference_name": "b_alder",
+    "refference_used": "b_alder",
     "variable_name": "generation_alder_kannersig"
   },
   {
+    "original_question": "Vad anser du om dina möjligheter att påverka i samhället?",
     "question": "Vad anser du om dina möjligheter att påverka i samhället?",
-    "pritty_question": "Vad anser du om dina möjligheter att påverka i samhället?",
     "answer_alternatives": [
       "1 - Inga möjligheter",
       "2",
@@ -2328,12 +2328,12 @@
     ],
     "category": "Joker",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "sp_mojlighet_paverka"
   },
   {
+    "original_question": "Spontant, hur ser du på samhällets framtid?",
     "question": "Spontant, hur ser du på samhällets framtid?",
-    "pritty_question": "Spontant, hur ser du på samhällets framtid?",
     "answer_alternatives": [
       "Samhällets framtid ser ljus ut",
       "Samhällets framtid ser ganska ljus ut",
@@ -2344,7 +2344,7 @@
     ],
     "category": "Joker",
     "answer_type": "singel",
-    "refference_name": null,
+    "refference_used": null,
     "variable_name": "g_samhallets_framtid"
   }
 ]
