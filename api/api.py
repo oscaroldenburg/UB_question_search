@@ -104,7 +104,7 @@ def search(q: str, limit: int = 10):
         if item.get("similarity"):  # just for testing
             print("Similarity:", item.get("similarity"))
             top_items.append(item)
-        if len(top_items) >= limit-1:
+        if len(top_items) >= limit:
             break
     #top_items = scored_items[:limit]
 
