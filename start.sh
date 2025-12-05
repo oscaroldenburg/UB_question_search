@@ -9,8 +9,8 @@ cd api
 source .venv/bin/activate
 
 echo "Starting backend on http://localhost:8000"
-# Start uvicorn server in background
-uvicorn api:app --reload --host 0.0.0.0 --port 8000 &
+# Start uvicorn server in background, output goes to terminal
+uvicorn api:app --reload --host 0.0.0.0 --port 8000 2>&1 &
 BACKEND_PID=$!
 
 # Navigate to frontend directory
@@ -18,7 +18,7 @@ cd ../ui
 
 echo "Starting frontend on http://localhost:5173"
 # Start frontend dev server
-npm run dev &
+npm run dev 2>&1 &
 FRONTEND_PID=$!
 
 # Function to cleanup on exit
