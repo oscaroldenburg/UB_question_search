@@ -81,6 +81,7 @@ onUnmounted(() => {
             <h3 class="section-title">Ytterligare information</h3>
             <p class="info-placeholder">Här kan du lägga till mer information om frågan, såsom statistik, analys eller relaterade insikter.</p>
           </div> -->
+        </div>
         
         <div class="modal-footer">
           <button class="primary-btn" @click="handleClose">Stäng</button>
